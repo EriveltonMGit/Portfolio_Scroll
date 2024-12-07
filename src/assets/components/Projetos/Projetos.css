@@ -1,0 +1,216 @@
+
+
+
+
+/* body_project */
+.body_project{
+    width: 35%;
+    height: 40vh;
+    border: 1px solid var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* name */
+.name{
+   
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    font-family: 'Gotham';
+    font-size: 1.2vw;
+    width: 100%;
+    background-color: var( --dark);
+    padding: 0.2rem;
+    padding-left: 1rem;
+}
+.img_project{
+    position: absolute;
+    width: 30vw;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* descricao */
+.descricao{
+    
+    width: 100%; 
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    background-color: var( --dark);
+    color: white;
+    
+    font-size: 0.8vw;
+    overflow: hidden;
+    padding: 0.4rem;
+}
+
+/* site_link */
+.site_link{
+border: 1px solid var(--gray);
+position: absolute;
+bottom: 0;
+right: 0;
+border-radius: 5px;
+width: 8vw;
+margin-bottom: 1vh;
+margin-right: 1vw;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Gotham';
+font-size: 1.2vw;
+padding: 0.2rem;
+cursor: pointer;
+transition: 0.5s all;
+background-color: var( --blue);
+}
+.site_link:hover{
+    background-color: var( --dark);
+    color: var(--white);
+}
+/* project_link */
+.project_link{
+
+    position: absolute;
+    bottom: 0;
+  right: 0;
+    border-radius: 5px;
+    width: 8vw;
+    margin-right: 10vw;
+    margin-bottom: 1vh;
+    padding: 0.2rem;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Gotham';
+    font-size: 1.2vw;
+    transition: 0.5s all;
+    background-color: var( --blue);
+}
+
+.project_link:hover{
+    background-color: var( --dark);
+    color: var(--white);
+}
+
+@media (max-width: 480px){
+    
+
+
+
+/* body_project */
+.body_project{
+    width: 100%;
+    height: 40vh;
+    border: 1px solid var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+ 
+}
+
+/* name */
+.name{
+   
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    font-family: 'Gotham';
+    font-size: 4vw;
+    width: 100%;
+    background-color: var( --dark);
+    padding: 0.2rem;
+    padding-left: 1rem;
+}
+.img_project{
+    position: absolute;
+    width:100vw;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* descricao */
+.descricao{
+    
+    width: 100%; 
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    background-color: var( --dark);
+    color: white;
+    
+    font-size: 3vw;
+    overflow: hidden;
+    padding: 0.4rem;
+}
+
+/* site_link */
+.site_link{
+border: 1px solid var(--gray);
+position: absolute;
+bottom: 0;
+right: 0;
+border-radius: 5px;
+width: 30vw;
+margin-bottom: 1vh;
+margin-right: 1vw;
+z-index: 20;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Gotham';
+font-size: 4vw;
+padding: 0.2rem;
+cursor: pointer;
+transition: 0.5s all;
+background-color: var( --blue);
+}
+.site_link:hover{
+    background-color: var( --dark);
+    color: var(--white);
+}
+/* project_link */
+.project_link{
+
+    position: absolute;
+    bottom: 0;
+  right: 0;
+    border-radius: 5px;
+    width: 30vw;
+    margin-right: 40vw;
+    margin-bottom: 1vh;
+    padding: 0.2rem;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Gotham';
+    font-size: 4vw;
+    transition: 0.5s all;
+    background-color: var( --blue);
+}
+
+.project_link:hover{
+    background-color: var( --dark);
+    color: var(--white);
+}
+
+}

@@ -1,0 +1,60 @@
+.scroll-arrow-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce 1.5s infinite;
+  
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.scroll-arrow {
+  fill: none;
+  stroke: #b3e9e7;
+  stroke-width: 2;
+
+  transform-origin: center;
+}
+
+@media (max-width: 480px) {
+  .scroll-arrow-wrapper {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounce 1.5s infinite;
+    margin-top: -50vh;
+    
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .scroll-arrow {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2;
+    margin-top: -10vh;
+    transform-origin: center;
+  }
+}

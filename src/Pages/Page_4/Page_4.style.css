@@ -1,0 +1,305 @@
+:root {
+  --primary: #007bff;
+  --bk-color: #151619;
+  --red: #be0e0e;
+  --yellow: #f2ff00;
+  --gold: #daa520;
+  --teal: #13ff00;
+  --cyan: #e0eeee;
+  --blue: #00dfc0;
+  --indigo: #5011b6;
+  --purple: #6f42c1;
+  --orange: #fd7e14;
+  --green: #4ade80;
+  --white: #ebebeb;
+  --gray: #6c757d31;
+  --gray-dark: #343a40;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --f-spinner-color-2: rgba(17, 24, 28, 0.8);
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #1f212b;
+  --card: #211d1d;
+}
+
+.page_4 {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  position: relative;
+  margin-top: 10vh;
+  
+}
+.text_scroll {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  font-family: "Proelium";
+  color: var(--white);
+  font-size: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+
+
+
+
+/* .page_4 .card_1  */
+.page_4 .card_1 {
+  width: 45%;
+  height: 70%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .page_4 .card_2  */
+.page_4 .card_2 {
+  width: 45%;
+  height: 70%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  gap: 1vh;
+  div{
+    border: 1px solid var(--gray);
+    overflow: hidden;
+    padding: 0.5rem;
+    border-radius: 10px;
+
+    img{
+      width: 4vw;
+      object-fit: cover;
+       }
+h3{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Proelium";
+  font-size: 1.3vw;
+  color: var(--white);
+  margin-top: 5vh;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+p{
+  color: var(--cyan);
+  font-family: "Gotham";
+  font-size: 1vw;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+    
+  }
+
+  
+  
+}
+
+.page_4 .card_2 h1 {
+  color: var(--bk-color);
+  font-family: Proelium;
+  font-size: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page_4 .card_2 p {
+  color: var(--bk-color);
+  font-family: SpaceGrotesk-VariableFont;
+  font-size: 1.3vw;
+}
+
+@media (max-width: 480px){
+  .page_4 {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10vh;
+    
+  }
+  .text_scroll {
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 0;
+    margin-top: -20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    font-family: "Proelium";
+    color: var(--white);
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  
+  
+  
+  
+  
+  /* .page_4 .card_1  */
+  .page_4 .card_1 {
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    margin-top: 70vh;
+    
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* .page_4 .card_2  */
+  .page_4 .card_2 {
+    width: 100%;
+    height: 55%;
+    position: absolute;
+   top:  0;
+    right: 0;
+    margin-top: 20vh;
+    margin-right: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    gap: 1vh;
+    text-align: center;
+    div{
+      border: 1px solid var(--gray);
+      overflow: hidden;
+      padding: 0.5rem;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      height: 32%;
+      img{
+        width: 10vw;
+        object-fit: cover;
+         }
+  h3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Proelium";
+    font-size:5vw;
+    color: var(--white);
+    margin-top: 5vh;
+    letter-spacing: 1px;
+    overflow: hidden;
+  }
+  p{
+    color: var(--cyan);
+    font-family: "Gotham";
+    font-size: 3.3vw;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+      
+    }
+  
+    
+    
+  }
+  
+  .page_4 .card_2 h1 {
+    color: var(--bk-color);
+    font-family: Proelium;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page_4 .card_2 p {
+    color: var(--bk-color);
+    font-family: SpaceGrotesk-VariableFont;
+    font-size: 1.3vw;
+  }
+}

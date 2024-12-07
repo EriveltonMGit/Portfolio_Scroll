@@ -1,0 +1,112 @@
+/* // AQUI FICA O SCSS DO PAGE 2  */
+.section_3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+ 
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+  color: white;
+}
+
+/* title_projetos */
+.title_projetos {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  padding: 1rem;
+  h1 {
+    width: 100%;
+
+    overflow: hidden;
+    top: 0;
+    font-family: "Proelium";
+    color: var(--white);
+    font-size: 5.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    z-index: 3;
+  }
+}
+
+/* container_projetos */
+.container_projetos {
+  width: 100%;
+  height: 70%;
+  padding: 1rem;
+  gap: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+  flex-wrap: wrap;
+  
+}
+
+
+
+@media (max-width: 480px) {
+  /* // AQUI FICA O SCSS DO PAGE 2  */
+.section_3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+ 
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  
+}
+
+/* title_projetos */
+.title_projetos {
+  width: 100%;
+  height: 20%;
+  display: flex;
+
+  padding: 1rem;
+  h1 {
+    width: 100%;
+
+    overflow: hidden;
+    top: 0;
+    font-family: "Proelium";
+    color: var(--white);
+    font-size: 5.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    z-index: 3;
+  }
+}
+
+/* container_projetos */
+.container_projetos {
+  width: 100%;
+  height: 70%;
+  padding: 1rem;
+  gap: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  flex-wrap: wrap;
+
+  
+}
+
+}

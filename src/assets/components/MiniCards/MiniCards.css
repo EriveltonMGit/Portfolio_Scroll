@@ -1,0 +1,115 @@
+
+/* container_mini_cards */
+.container_mini_cards{
+    
+    width: 100%;  
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    overflow: hidden;
+    
+
+}
+/* item-body */
+.item-body{
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    width: 25vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s all;
+
+   .icon_mini_cards{
+  color: var( --blue);
+  font-size:8vw;
+  overflow: hidden;
+
+   }
+   h3{
+    color: white;
+    font-family: 'Proelium';
+    font-size: 1.2vw;
+    letter-spacing: 3px;
+    overflow: hidden;
+   }
+   p{
+    color: white;
+    font-family: 'Gotham';
+    font-size: 1vw;
+    overflow: hidden;
+   }
+
+
+
+}
+.item-body:hover{
+background-color: var(--gray);
+}
+
+@media(max-width:480px){
+    
+/* container_mini_cards */
+.container_mini_cards{
+    
+    width: 100%;  
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0vh;
+    overflow: hidden;
+ 
+
+}
+/* item-body */
+.item-body{
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    width: 47%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s all;
+   
+    margin-bottom: 1vh;
+
+   .icon_mini_cards{
+  color: var( --blue);
+  font-size:5vw;
+  overflow: hidden;
+
+   }
+   h3{
+    color: white;
+    font-family: 'Proelium';
+    font-size:3vw;
+    letter-spacing: 3px;
+    overflow: hidden;
+   }
+   p{
+    color: white;
+    font-family: 'Gotham';
+    font-size: 3.4vw;
+    overflow: hidden;
+   }
+
+
+
+}
+.item-body:hover{
+background-color: var(--gray);
+}
+}

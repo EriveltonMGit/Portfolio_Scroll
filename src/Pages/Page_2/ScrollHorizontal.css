@@ -1,0 +1,432 @@
+
+  
+
+  
+  .scroll-section-outer {
+    overflow: hidden;
+  }
+  
+  .scroll-section-inner {
+    height: 100vh;
+    width: 300vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+ 
+  }
+  
+  .scroll-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+
+  }
+  
+ 
+/* SOBRE */
+.sobre{
+  
+  height: 90%;
+  width: 45%;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+
+  margin-left: 5vw;
+
+  h2{
+    font-family: 'Proelium';
+    color: var(--light);
+    font-size: 3.5vw;
+    width: 100%;
+  }
+
+
+p{
+  font-family: 'Gotham';
+  width: 100%;
+  color: var(--light);
+  font-size: 1.3vw;
+  margin-bottom: 5vh;
+}
+
+}
+
+
+  /* foto_perfil */
+  .foto_perfil{
+   
+    height: 90%;
+    width: 50%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+   
+    margin-right: -30vw;
+    img{
+      width: 30vw;
+      object-fit: cover;
+      background-size: cover;
+      z-index: 2;
+      position: absolute;
+      overflow: hidden;
+      bottom: 0;
+      
+    }
+
+    /* elipse */
+.elipse{
+  position: absolute;
+  z-index: 1;
+  width: 40vw;
+  overflow: hidden;
+  filter: blur(50px);
+ 
+  
+}   
+
+
+}
+
+
+/* AQUI FICA A SECTION 2 */
+/* text_mini_cards */
+.text_mini_cards{
+  width: 40%;
+  height: 95%;
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 1rem;
+  z-index: 1;
+  
+
+ h3{
+  font-family: 'Proelium';
+  color: white;
+  width: 100%;
+  font-size: 3vw;
+  overflow: hidden;
+ 
+ }
+p{
+  color: white;
+  font-family: 'Gotham';
+  font-size: 1.2vw;
+  overflow: hidden;
+ 
+}
+
+
+}
+/* area_cards */
+.area_cards{
+
+  width: 52%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+ z-index: 200;
+
+}
+
+
+/* secttion_3-cards */
+.secttion_3-cards{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .content_mini-cards{
+   
+    width: 45%;
+    height:90%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1rem;
+
+
+    h3{
+      font-family: 'Proelium';
+      color: white;
+      width: 100%;
+      font-size: 3vw;
+      overflow: hidden;
+     
+     }
+
+p{
+  color: white;
+  font-family: 'Gotham';
+  font-size: 1.2vw;
+  overflow: hidden;
+}
+
+
+
+  }
+}
+
+
+/* mini_cards_ferramentas */
+.mini_cards_ferramentas{
+  width: 50%;
+  height: 100%;
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+
+
+/* =================== MIDIA SCREEN ============================ */
+@media (max-width: 480px) {
+  
+  
+
+  
+  .scroll-section-outer {
+    overflow: hidden;
+   
+  }
+  
+  .scroll-section-inner {
+    height: 100vh;
+    width: 300vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+ 
+  }
+  
+  .scroll-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+
+  }
+  
+ 
+/* SOBRE */
+.sobre{
+  
+  height: 90%;
+  width: 100%;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+
+  margin-left: 5vw;
+
+  h2{
+    font-family: 'Proelium';
+    color: var(--light);
+    font-size: 6vw;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+  }
+
+
+p{
+  font-family: 'Gotham';
+  width: 100%;
+  color: var(--light);
+  font-size: 4vw;
+  margin-bottom: 5vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 5vh;
+  
+}
+.p-device{
+  display: none;
+}
+}
+
+
+  /* foto_perfil */
+  .foto_perfil{
+   
+    height: 90%;
+    width: 50%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+   bottom: 0;
+    margin-top: -20vh;
+    overflow: hidden;
+   
+    margin-right: -200vw;
+    img{
+      width: 80vw;
+      object-fit: cover;
+      background-size: cover;
+      z-index: 200;
+      position: absolute;
+      overflow: hidden;
+      bottom: 0;
+      
+    }
+
+    /* elipse */
+.elipse{
+  position: absolute;
+  z-index: 1;
+  width: 40vw;
+  overflow: hidden;
+  filter: blur(50px);
+ 
+  
+}   
+
+
+}
+
+
+/* AQUI FICA A SECTION 2 */
+/* text_mini_cards */
+.device_text_impacto{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+}
+.text_mini_cards{
+  width: 100%;
+  height: 55%;
+  margin-top: 8vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 1rem;
+  z-index: 1;
+ 
+
+ h3{
+  font-family: 'Proelium';
+  color: white;
+  width: 100%;
+  font-size: 6vw;
+  overflow: hidden;
+  
+ }
+p{
+  color: white;
+  font-family: 'Gotham';
+  font-size: 3.5vw;
+  overflow: hidden;
+ 
+}
+
+
+}
+/* area_cards */
+.area_cards{
+
+  width: 100%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+ z-index: 200;
+ 
+}
+
+
+/* secttion_3-cards */
+.secttion_3-cards{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  .content_mini-cards{
+    width: 100%;
+    height:50%;
+    flex-wrap: wrap;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1rem;
+
+
+    h3{
+      font-family: 'Proelium';
+      color: white;
+      width: 100%;
+      font-size: 6vw;
+      overflow: hidden;
+      margin-top: -2vh;
+ 
+     }
+
+p{
+  color: white;
+  font-family: 'Gotham';
+  font-size: 3.4vw;
+  overflow: hidden;
+  
+}
+
+
+
+  }
+}
+
+
+/* mini_cards_ferramentas */
+.mini_cards_ferramentas{
+  width: 100%;
+  height: 50%;
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    flex-wrap: wrap;
+    gap: 1vw;
+   
+}
+
+}

@@ -1,0 +1,204 @@
+/* // src/styles/globals.scss */
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*COLORS */
+:root {
+  --primary: #007bff;
+  --red: #be0e0e;
+  --dark: #121315;
+  --blue: #b3e9e7;
+
+  --yellow: #f2ff00;
+  --gold: #daa520;
+  --teal: #13ff00;
+  --cyan: #e0eeee;
+
+ 
+  --indigo: #5011b6;
+  --purple: #6f42c1;
+  --orange: #fd7e14;
+  --green: #4ade80;
+
+  --white: #ffffff;
+  --gray: #6c757d31;
+  --gray-dark: #343a40;
+
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+
+  --f-spinner-color-2: rgba(17, 24, 28, 0.8);
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  
+  --card: #211d1d;
+}
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #121315;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+}
+
+
+a {
+  
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #121315;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(90deg,#b3e9e7,  #397c7b,  #b3e9e7);
+  border-radius: 6px;
+  transition: 05s ease-in-out;
+}
+
+
+/* Declaração da fonte 1 */
+@font-face {
+  font-family: 'Gotham';
+  src: url('/src/assets/fonts/Gotham/gotham-book.woff2') format('woff2');
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Orbitron';
+  src: url('/src/assets/fonts/Orbit/orbitron-black.otf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+
+/* Declaração da fonte */
+@font-face {
+  font-family: 'Proelium';
+  src: url('/src/assets/fonts/Proelium/Proelium.otf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: ' Alien-Encounters';
+  src: url('/src/assets/fonts/Alien/Alien-Encounters-Bold.ttf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: ' Pennstat';
+  src: url('/src/assets/fonts/Penn/Pennstat.ttf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: 'Hanged';
+  src: url('/src/assets/fonts/Hang/Hanged\ Letters.ttf') format('ttf');
+  font-weight: bolder;
+  font-style: normal;
+} */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
