@@ -218,7 +218,7 @@ a{
   backdrop-filter: blur(10px);
   z-index: 10;
   border: 1px solid var(--bk-color);
-  z-index: 9999;
+  z-index: 9998;
   
 }
 /* LOGO */
