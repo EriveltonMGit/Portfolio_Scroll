@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import './Nav.style.css';
-import Logo from '../../assets/img/icons/logo.svg';
+
 
 export default function Nav() {
   // Estado para controlar a visibilidade da nav
@@ -32,7 +32,7 @@ export default function Nav() {
   return (
     <section className={`nav_bar ${navVisible ? "visible" : ""}`}>
       <main className="logo">
-       <a href="https://web-desing-page.netlify.app/"> <img src={Logo} alt="Logo" /></a>
+       <a href="https://web-desing-page.netlify.app/"> <img src="/img/icons/logo.svg" alt="Logo" /></a>
       </main>
 
       <ul className="ul_nav">

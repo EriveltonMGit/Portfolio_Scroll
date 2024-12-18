@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 // IMPORT CSS
 import "./ScrollHorizontal.css";
 import MiniCards from "../../assets/components/MiniCards/MiniCards";
-import MiniCardsFerramentas from "../../assets/components/MiniCards_Ferramentas/MiniCardsFerramentas";
+import ThreeDTorus from "../../assets/components/Circle/circle";
 
 function ScrollSection() {
   // ANIMAÇAO PARA OS EFEITO DE ROLAGEM DOS OBJETOS
@@ -92,19 +92,21 @@ function ScrollSection() {
                   Computação. Minha paixão por tecnologia e design me capacita a
                   criar soluções eficientes, inovadoras e visualmente atraentes,
                   com foco em performance e usabilidade.
-                  <p className="p-device"> Tenho experiência
-                  prática com ferramentas como Angular e React, e estou sempre
-                  explorando novas tecnologias e tendências para otimizar meus
-                  projetos, proporcionando uma experiência de usuário envolvente
-                  e intuitiva.</p>
+                  <p className="p-device">
+                    {" "}
+                    Tenho experiência prática com ferramentas como Angular e
+                    React, e estou sempre explorando novas tecnologias e
+                    tendências para otimizar meus projetos, proporcionando uma
+                    experiência de usuário envolvente e intuitiva.
+                  </p>
                 </p>
               </div>
               {/* foto_perfil */}
               <div className="foto_perfil animation">
-                <img src="/src/assets/img/page_2/foto.webp" alt="" />
+                <img src="/img/page_2/foto.webp" alt="" />
                 <img
                   className="elipse"
-                  src="/src/assets/img/page_2/Elipse-1.webp"
+                  src="/img/page_2/Elipse-1.webp"
                   alt=""
                 />
               </div>
@@ -129,8 +131,8 @@ function ScrollSection() {
                   detalhe é pensado com cuidado, desde o design inicial até a
                   implementação final, garantindo resultados sólidos, criativos
                   e eficientes. Seja um projeto pequeno ou uma solução robusta,
-                  meu objetivo é sempre agregar valor, com experiências
-                  digitais que realmente fazem a diferença.
+                  meu objetivo é sempre agregar valor, com experiências digitais
+                  que realmente fazem a diferença.
                 </p>
               </div>
               {/* minicards */}
@@ -140,29 +142,31 @@ function ScrollSection() {
             </div>
             <div className="scroll-section secttion_3-cards">
               <div className="content_mini-cards">
-                <h3 className="area-especial">Sobre minhas Habilidades</h3>
+                <h3 className="area-especial">
+                  Há + de 1 ano gerando valor e trazendo resultados!
+                </h3>
                 <p>
-                  Neste painel, apresento as principais tecnologias e
-                  ferramentas que utilizo nos meus projetos. Minha formação
-                  abrange desde linguagens e bibliotecas front-end, como React e
-                  Angular, até frameworks de design responsivo, como Bootstrap e
-                  Tailwind CSS, que me ajudam a criar interfaces modernas e
-                  dinâmicas.
+                  Ofereço uma ampla gama de serviços de alta qualidade,
+                  cuidadosamente elaborados para atender a todas as suas
+                  necessidades. Com um compromisso firme em entregar resultados
+                  excepcionais, estou aqui para ajudar você a alcançar seus
+                  objetivos por meio de soluções personalizadas, pensadas
+                  especialmente para o seu contexto único.
                 </p>
                 <p>
-                  Além disso, conto com habilidades em HTML e CSS, que formam a
-                  base para o desenvolvimento web, complementadas pelo uso de
-                  Sass e Styled Components, proporcionando uma estilização
-                  avançada e componentizada. Estou sempre em busca de novas
-                  ferramentas e tendências para aprimorar meu trabalho, com um
-                  foco contínuo em React e Angular, que me permitem desenvolver
-                  interfaces de usuário reativas e robustas.
+                  Entendo que cada desafio é diferente e, por isso, trabalho de
+                  maneira flexível e estratégica, buscando as melhores
+                  abordagens para resolver problemas, otimizar processos e
+                  impulsionar o crescimento. Meu objetivo é garantir que você
+                  tenha as ferramentas e o suporte necessários para ter sucesso,
+                  seja no desenvolvimento de novos projetos, na melhoria de
+                  serviços existentes ou na implementação de soluções
+                  inovadoras.
                 </p>
               </div>
               {/*minicards  */}
-              <div className="mini_cards_ferramentas">
-                < MiniCardsFerramentas/>
-
+              <div className="area_circle">
+                <ThreeDTorus/>
               </div>
             </div>
           </div>

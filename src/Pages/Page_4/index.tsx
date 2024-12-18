@@ -1,7 +1,7 @@
 import "./Page_4.style.css";
 import { VelocityScroll } from "../../components/ui/scroll-based-velocity";
 // IMPORT COMPONENTS
-import ThreeDTorus from "../../assets/components/Circle/circle";
+
 export default function Page_4() {
   return (
     <section className="page_4" id="ferramentas">
@@ -10,14 +10,14 @@ export default function Page_4() {
         className="card_1"
        
       >
-<ThreeDTorus/>
+
 
       </main>
       {/* CARD 2 */}
       <main className="card_2" >
         {/* CARD 1 */}
         <div>
-          <img src="/src/assets/img/Page_4/img_1.webp" alt="" />
+          <img src="/img/Page_4/img_1.webp" alt="" />
           <h3>Responsividade</h3>
           <p>
             Desenvolvo interfaces claras e objetivas, com foco em garantir uma
@@ -28,7 +28,7 @@ export default function Page_4() {
         </div>
         {/* CARD 2 */}
         <div>
-          <img src="/src/assets/img/Page_4/img_2.webp" alt="" />
+          <img src="/img/Page_4/img_2.webp" alt="" />
           <h3>UI Desing</h3>
           <p>
             Crio interfaces claras, objetivas e, acima de tudo, intuitivas,
@@ -39,7 +39,7 @@ export default function Page_4() {
         </div>
         {/* CARD 3*/}
         <div>
-          <img src="/src/assets/img/Page_4/img_3.webp" alt="" />
+          <img src="/img/Page_4/img_3.webp" alt="" />
           <h3>Desenvolvimento</h3>
           <p>
             Desenvolvo sites profissionais, blogs, portfólios, landing pages e

@@ -5,7 +5,7 @@ import "./Page.style.css";
 import GradualSpacing from "../../components/ui/gradual-spacing";
 // IMG
 // import ScrollArrow from "../../assets/components/Arrow_Scroll/Arrow_scrool";
-
+import { useState } from "react";
 import { useEffect } from "react";
 import { gsap } from "gsap";
 
@@ -30,6 +30,17 @@ export default function Page_1() {
     };
   }, []);
 
+  const [title, setTitle] = useState("Texto inicial");
+  useEffect(() => {
+    // Atualizar o título dinamicamente (se necessário)
+    setTitle("Bem-vindo ao Meu Portfólio eu sou");
+  }, []);
+  const [title2, setTitle2] = useState("Texto inicial");
+  useEffect(() => {
+    // Atualizar o título dinamicamente (se necessário)
+    setTitle2(" ERIVELTON MAGALHÃES");
+  }, []);
+
   return (
     <>
       <section
@@ -41,9 +52,8 @@ export default function Page_1() {
         {/* CARD 1 */}
         <main className="card_1">
           <h1 className="title_ area-especial text_1 gradual-spacing">
-            <GradualSpacing
-              text={"BEM VINDO AO MEU PORTFÓLIO, MEU NOME É ERIVELTON MAGLHÃES"}
-            />{" "}
+          <GradualSpacing text={title} />
+          <GradualSpacing text={title2} />
           </h1>
           <div className="mini_cards ">
             <div className="card_ ">
@@ -52,10 +62,7 @@ export default function Page_1() {
                 construir seu site.
               </h3>
               <p>Transformo a sua ideia em um verdadeiro ímã de clientes!</p>
-              {/* <p>
-              Descomplicando o Front-End com tutoriais e artigos aprofundados
-              sobre tudo, de animações e interatividade a estruturas de layout.
-            </p> */}
+            
               <div className="btn_div">
                 {/* <Button /> */}
                 <button className="button button-custom">
