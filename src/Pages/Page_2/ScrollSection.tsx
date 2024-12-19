@@ -153,16 +153,7 @@ function ScrollSection() {
                   objetivos por meio de soluções personalizadas, pensadas
                   especialmente para o seu contexto único.
                 </p>
-                <p>
-                  Entendo que cada desafio é diferente e, por isso, trabalho de
-                  maneira flexível e estratégica, buscando as melhores
-                  abordagens para resolver problemas, otimizar processos e
-                  impulsionar o crescimento. Meu objetivo é garantir que você
-                  tenha as ferramentas e o suporte necessários para ter sucesso,
-                  seja no desenvolvimento de novos projetos, na melhoria de
-                  serviços existentes ou na implementação de soluções
-                  inovadoras.
-                </p>
+              
               </div>
               {/*minicards  */}
               <div className="area_circle">

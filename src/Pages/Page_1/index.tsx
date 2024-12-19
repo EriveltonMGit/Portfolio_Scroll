@@ -33,14 +33,9 @@ export default function Page_1() {
   const [title, setTitle] = useState("Texto inicial");
   useEffect(() => {
     // Atualizar o título dinamicamente (se necessário)
-    setTitle("Bem-vindo ao Meu Portfólio eu sou");
+    setTitle("Bem-vindo ao Meu Portfólio");
   }, []);
-  const [title2, setTitle2] = useState("Texto inicial");
-  useEffect(() => {
-    // Atualizar o título dinamicamente (se necessário)
-    setTitle2(" ERIVELTON MAGALHÃES");
-  }, []);
-
+  
   return (
     <>
       <section
@@ -53,13 +48,11 @@ export default function Page_1() {
         <main className="card_1">
           <h1 className="title_ area-especial text_1 gradual-spacing">
           <GradualSpacing text={title} />
-          <GradualSpacing text={title2} />
           </h1>
           <div className="mini_cards ">
             <div className="card_ ">
               <h3>
-                SOU DESENVOLVEDOR FRONT END E Estou aqui para ajudar você a
-                construir seu site.
+                EU SOU ERIVELTON MAGAHLÃES, DESENVOLVEDOR FRONT END E ESTOU AQUI PARA AJUDAR VOCÊ A CONSTRUIR SEU SITE.
               </h3>
               <p>Transformo a sua ideia em um verdadeiro ímã de clientes!</p>
             
