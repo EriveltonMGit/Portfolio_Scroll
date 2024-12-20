@@ -86,8 +86,8 @@ function ScrollSection() {
                 </h2>
                 <p>
                   Formado em Análise e Desenvolvimento de Sistemas, sou
-                  desenvolvedor Front-end e Web Designer com certificação em
-                  Google Cloud Computing e Desenvolvedor Full Stack. Atualmente,
+                  desenvolvedor Front-end  com certificação em Desenvolvedor Full Stack e
+                  Google Cloud Computing. Atualmente,
                   estou expandindo meus conhecimentos cursando Ciência da
                   Computação. Minha paixão por tecnologia e design me capacita a
                   criar soluções eficientes, inovadoras e visualmente atraentes,

@@ -5,7 +5,7 @@
 /* body_project */
 .body_project{
     width: 35%;
-    height: 40vh;
+    height: 45vh;
     border: 1px solid var(--gray);
     display: flex;
     align-items: center;
@@ -67,7 +67,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-family: 'Gotham';
-font-size: 1.2vw;
+font-size: 1vw;
 padding: 0.2rem;
 cursor: pointer;
 transition: 0.5s all;
@@ -94,7 +94,7 @@ background-color: var( --blue);
     justify-content: center;
     cursor: pointer;
     font-family: 'Gotham';
-    font-size: 1.2vw;
+    font-size: 1vw;
     transition: 0.5s all;
     background-color: var( --blue);
 }
@@ -102,6 +102,7 @@ background-color: var( --blue);
 .project_link:hover{
     background-color: var( --dark);
     color: var(--white);
+    border: 1px solid var(--gray);
 }
 
 @media (max-width: 480px){
@@ -112,7 +113,7 @@ background-color: var( --blue);
 /* body_project */
 .body_project{
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     border: 1px solid var(--gray);
     display: flex;
     align-items: center;
@@ -176,7 +177,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-family: 'Gotham';
-font-size: 4vw;
+font-size: 3.5vw;
 padding: 0.2rem;
 cursor: pointer;
 transition: 0.5s all;
@@ -203,7 +204,7 @@ background-color: var( --blue);
     justify-content: center;
     cursor: pointer;
     font-family: 'Gotham';
-    font-size: 4vw;
+    font-size: 3.5vw;
     transition: 0.5s all;
     background-color: var( --blue);
 }

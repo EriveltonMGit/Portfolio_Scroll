@@ -29,7 +29,7 @@
 
    .icon_mini_cards{
   color: var( --blue);
-  font-size:8vw;
+  font-size:5vw;
   overflow: hidden;
 
    }
@@ -39,12 +39,14 @@
     font-size: 1.2vw;
     letter-spacing: 3px;
     overflow: hidden;
+    
    }
    p{
     color: white;
     font-family: 'Gotham';
     font-size: 1vw;
     overflow: hidden;
+    
    }
 
 

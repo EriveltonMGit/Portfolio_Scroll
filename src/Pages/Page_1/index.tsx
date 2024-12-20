@@ -35,7 +35,7 @@ export default function Page_1() {
     // Atualizar o título dinamicamente (se necessário)
     setTitle("Bem-vindo ao Meu Portfólio");
   }, []);
-  
+
   return (
     <>
       <section
@@ -47,15 +47,16 @@ export default function Page_1() {
         {/* CARD 1 */}
         <main className="card_1">
           <h1 className="title_ area-especial text_1 gradual-spacing">
-          <GradualSpacing text={title} />
+            <GradualSpacing text={title} />
           </h1>
           <div className="mini_cards ">
             <div className="card_ ">
               <h3>
-                EU SOU ERIVELTON MAGAHLÃES, DESENVOLVEDOR FRONT END E ESTOU AQUI PARA AJUDAR VOCÊ A CONSTRUIR SEU SITE.
+                EU SOU ERIVELTON MAGAHLÃES, DESENVOLVEDOR FRONT END E ESTOU AQUI
+                PARA AJUDAR VOCÊ A CONSTRUIR SEU SITE.
               </h3>
               <p>Transformo a sua ideia em um verdadeiro ímã de clientes!</p>
-            
+
               <div className="btn_div">
                 {/* <Button /> */}
                 <button className="button button-custom">
@@ -88,12 +89,10 @@ export default function Page_1() {
           <div className="chevron"></div>
           <div className="chevron"></div>
         </div>
-         {/* div blur */}
-      <div className=" div_opacity_left"></div>
-      <div className=" div_opacity_right"></div>
+        {/* div blur */}
+        <div className=" div_opacity_left"></div>
+        <div className=" div_opacity_right"></div>
       </section>
-
-     
     </>
   );
 }

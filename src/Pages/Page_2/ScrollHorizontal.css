@@ -102,6 +102,7 @@
     width: 100%;
     font-size: 3vw;
     overflow: hidden;
+    overflow: hidden;
   }
   p {
     color: white;
@@ -119,6 +120,7 @@
   justify-content: space-around;
   overflow: hidden;
   z-index: 200;
+
 }
 
 /* secttion_3-cards */
@@ -240,9 +242,9 @@
     margin-top: -20vh;
     overflow: hidden;
 
-    margin-right: -200vw;
+    margin-right: -210vw;
     img {
-      width: 80vw;
+      width: 90vw;
       object-fit: cover;
       background-size: cover;
       z-index: 200;
@@ -255,7 +257,7 @@
     .elipse {
       position: absolute;
       z-index: 1;
-      width: 40vw;
+      width: 110vw;
       overflow: hidden;
       filter: blur(50px);
     }
@@ -324,7 +326,7 @@
       justify-content: space-around;
       flex-direction: column;
       padding: 1rem;
-
+     
       h3 {
         font-family: "Proelium";
         color: white;
@@ -343,15 +345,13 @@
     }
   }
 
-  /* mini_cards_ferramentas */
-  .mini_cards_ferramentas {
+  /* .area_circle */
+  .area_circle {
     width: 100%;
     height: 50%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
-    flex-wrap: wrap;
-    gap: 1vw;
+    justify-content: center;
+   
   }
 }

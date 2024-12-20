@@ -72,7 +72,7 @@ export default function Page_5() {
           <div className="footerColumn">
             <h5 className="footerTitle">Siga-me</h5>
             <div className="socialLinks">
-              <img src="/src/assets/img/Page_5/qrcode.jpg" alt="QR Code" />
+              <img src="/img/Page_5/qrcode.jpg" alt="QR Code" />
               <div className="div_icons">
                 <a href="https://api.whatsapp.com/send?phone=5561981579569&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20seu%20trabalho!" target="_blank" rel="noopener noreferrer">
                   <FaWhatsapp />

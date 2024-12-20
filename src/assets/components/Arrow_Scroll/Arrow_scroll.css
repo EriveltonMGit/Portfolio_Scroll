@@ -35,7 +35,7 @@
     transform: translateX(-50%);
     animation: bounce 1.5s infinite;
     margin-top: -50vh;
-    
+    z-index: 2;
   }
 
   @keyframes bounce {

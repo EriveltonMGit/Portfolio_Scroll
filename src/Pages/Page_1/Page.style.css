@@ -127,7 +127,7 @@
     color: var(--white);
     margin-top: 5vh;
     letter-spacing: 1px;
-
+overflow: hidden;
   
   }
 
@@ -140,6 +140,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    overflow: hidden;
   }
 
   /* btn_ */
@@ -174,6 +175,7 @@
     margin-left: 0.5vw;
     overflow: hidden;
     font-family: "Gotham";
+    
   }
 
   .button:hover {
@@ -354,6 +356,28 @@
     padding: 0;
     text-align: center;
   }
+/*  div_opacity_left*/
+.div_opacity_left{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100vh;
+  background-image: linear-gradient(90deg, #121315 ,#121315e7, #12131500);
+  z-index: 20;
+  
+}
+/* div_opacity_right */
+.div_opacity_right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
+  height: 100vh;
+  background-image: linear-gradient(90deg,#12131500 ,#121315e7, #121315 );
+  z-index: 20;
+ 
+}
 
   /*CARD 1 -  title_  */
   .section_1 .title_ {
@@ -366,7 +390,7 @@
     margin-top: 5vh;
     font-family: "Proelium";
     color: var(--white);
-    font-size: 10vw;
+    font-size: 13vw;
     letter-spacing: 2.9px;
     text-align: center;
     display: flex;
@@ -393,21 +417,22 @@
     text-align: center;
     
   }
-
+.card_2 {
+  display: none;
+}
   /* mini_cards */
   .mini_cards {
     width: 100%;
     height: 70%;
     position: absolute;
     bottom: 0;
-   
     margin-top: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2vh;
+    z-index: 100;
     flex-direction: column;
-    
    
   }
 
@@ -422,9 +447,9 @@
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-
     position: absolute;
     left: 0;
+    
     
   }
   .mini_cards .card_:nth-child(1) {
@@ -447,7 +472,7 @@
       letter-spacing: 1px;
       color: var(--white);
       overflow: hidden;
-     
+      
     }
 
     p {
@@ -455,14 +480,14 @@
       font-family: "Gotham";
       font-size: 4vw;
       overflow: hidden;
-     
+      
     }
 
     /* btn_ */
     .btn_div {
       margin-top: 1vh;
       width: 100%;
-      height: 30vh;
+      height: 33vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -472,17 +497,19 @@
      right: 0;
      z-index: 4;
      margin-right: -5%;
-      button {
-        width: 80%;
+     padding:1.5rem;
+      .button {
+        width: 90%;
         margin-left: 1vw;
         overflow: hidden;
-        font-size: 5vw;
+        font-size: 4vw;
         display: flex;
         align-items: center;
         justify-content: center;
-
+        
+        
       }
-      button .bi {
+      .button .bi {
         font-size: 5vw;
       }
     }
@@ -495,6 +522,8 @@
       justify-content: space-between;
       border-radius: 10px;
       overflow: hidden;
+    
+      z-index: 430;
     }
     /* .btn_div span a */
 
@@ -505,8 +534,9 @@
       border-bottom: 2px solid #b3e9e7;
       border-left: 6px solid #b3e9e7;
       border-right: 6px solid #b3e9e7;
-
+      
       border-radius: 15px;
+      z-index: 60;
       padding: 1rem;
       font-size: 1vw;
       cursor: pointer;
@@ -521,6 +551,7 @@
       color: var(--card);
       transition: 0.5s;
       font-size: 5vw;
+      
     }
 
     .btn_div span a .bi:hover {
@@ -547,8 +578,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  
-    
+
   }
   
   .chevron {

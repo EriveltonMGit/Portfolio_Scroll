@@ -1,5 +1,6 @@
 import "./Page_4.style.css";
 import { VelocityScroll } from "../../components/ui/scroll-based-velocity";
+
 // IMPORT COMPONENTS
 
 export default function Page_4() {
@@ -54,7 +55,7 @@ export default function Page_4() {
         {/* <ScrollBasedVelocity /> */}
         <VelocityScroll
           text={
-            "FRONT END - FERRAMENTAS COMO REACT, ANGULAR, NEXT.JS, TAILWIND CSS, BOOTSTRAP - INOVAÇÃO - FUTURO - DESENVOLVIMENTO MODERNO - MAGIC UI - KANBAN -"
+            "FRONT END - REACT, ANGULAR, NEXT.JS, TAILWIND CSS, BOOTSTRAP - INOVAÇÃO  - DESENVOLVIMENTO MODERNO - MAGIC UI ETC"
           }
         />
       </div>
