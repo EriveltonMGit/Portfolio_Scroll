@@ -7,15 +7,11 @@ export default function Page_4() {
   return (
     <section className="page_4" id="ferramentas">
       {/* CARD 1 */}
-      <main
-        className="card_1"
-       
-      >
-
-
+      <main className="card_1">
+        {/* <img src="/img/Page_4/img_fig.png" alt="" /> */}
       </main>
       {/* CARD 2 */}
-      <main className="card_2" >
+      <main className="card_2">
         {/* CARD 1 */}
         <div>
           <img src="/img/Page_4/img_1.webp" alt="" />
