@@ -1,14 +1,11 @@
 import "./Page.style.css";
-// IMPORT COMPONENTS
-// import ThreeDTorus from "../../assets/components/Circle/circle";
-
 import GradualSpacing from "../../components/ui/gradual-spacing";
-// IMG
-// import ScrollArrow from "../../assets/components/Arrow_Scroll/Arrow_scrool";
-import { useState } from "react";
+
 import { useEffect } from "react";
 import { gsap } from "gsap";
-
+import { FaWhatsapp } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 export default function Page_1() {
   useEffect(() => {
     const handleScroll_2 = () => {
@@ -30,24 +27,18 @@ export default function Page_1() {
     };
   }, []);
 
-  const [title, setTitle] = useState("Texto inicial");
-  useEffect(() => {
-    // Atualizar o título dinamicamente (se necessário)
-    setTitle("Bem-vindo ao Meu Portfólio");
-  }, []);
-
   return (
     <>
       <section
         className="section_1"
         id="inicio"
-        // data-aos="zoom-out"
-        // data-aos-duration="2000"
+        data-aos="zoom-out"
+        data-aos-duration="2000"
       >
         {/* CARD 1 */}
         <main className="card_1">
           <h1 className="title_ area-especial text_1 gradual-spacing">
-            <GradualSpacing text={title} />
+            <GradualSpacing text="BEM-VINDO AO MEU PORTFÓLIO" />
           </h1>
           <div className="mini_cards ">
             <div className="card_ ">
@@ -66,14 +57,17 @@ export default function Page_1() {
                 <span>
                   <a href="">
                     {" "}
-                    <i className="bi bi-whatsapp"></i>
+                    
+                    <i className="bi bi-whatsapp"><FaWhatsapp/></i>
                   </a>
                   <a href="">
-                    <i className="bi bi-linkedin"></i>
+                    
+                    <i className="bi bi-linkedin"><CiLinkedin/></i>
                   </a>
                   <a href="">
                     {" "}
-                    <i className="bi bi-github"></i>
+                   
+                    <i className="bi bi-github"><FaGithub/></i>
                   </a>
                 </span>
               </div>

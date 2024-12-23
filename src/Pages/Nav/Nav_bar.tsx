@@ -1,8 +1,17 @@
 import { useState, useEffect } from "react";
+import { AiFillHome, AiFillFileText } from "react-icons/ai";
+import { FaStar, FaStackOverflow, FaTools, FaUserAlt } from "react-icons/fa";
+import { RxHamburgerMenu } from "react-icons/rx";
 import './Nav.style.css';
-
+import Menu from "../../assets/components/MenuDevice/Menu_device";
 
 export default function Nav() {
+// FUNÇÃO PARA ABIR O MENU DEVICE
+const [openMenu, setOpenMenu] = useState (false)
+
+
+
+
   // Estado para controlar a visibilidade da nav
   const [navVisible, setNavVisible] = useState(false);
 
@@ -29,49 +38,67 @@ export default function Nav() {
     };
   }, []);
 
+  // Função para baixar o CV
+  function baixarCv() {
+    location.href = "https://drive.google.com/uc?export=download&id=1Kfk9wYxkOFl_2vZbRjM5ZutiQysX4_VZ";
+  }
+
   return (
+  <>
     <section className={`nav_bar ${navVisible ? "visible" : ""}`}>
       <main className="logo">
-       <a href="https://web-desing-page.netlify.app/"> <img src="/img/icons/logo.svg" alt="Logo" /></a>
+       <a href="https://web-desing-page.netlify.app/">
+         <img src="/img/icons/logo.svg" alt="Logo" />
+       </a>
       </main>
 
       <ul className="ul_nav">
         <li>
           <a href="#inicio">
-            <i className="bi bi-house"></i>INÍCIO
+            <AiFillHome /> INÍCIO
           </a>
         </li>
         <li>
           <a href="#sobre">
-            <i className="bi bi-file-earmark-text"></i>SOBRE
+            <AiFillFileText /> SOBRE
           </a>
         </li>
-      
         <li>
           <a href="#eventos">
-            <i className="bi bi-star text"></i>SITE
+            <FaStar /> SITE
           </a>
         </li>
         <li>
           <a href="#projetos">
-            <i className="bi bi-substack"></i>PROJETOS
+            <FaStackOverflow /> PROJETOS
           </a>
         </li>
         <li>
           <a href="#ferramentas">
-            <i className="bi bi-ui-radios-grid"></i>FERRAMENTAS
+            <FaTools /> FERRAMENTAS
           </a>
         </li>
         <li>
           <a href="#contato">
-            <i className="bi bi-person-lines-fill"></i>CONTATO
+            <FaUserAlt /> CONTATO
           </a>
         </li>
+        <button className="btn_cv" onClick={baixarCv}>
+          <span>Download CV</span>
+        </button>
       </ul>
 
-      <button className="btn_menu_device">
-        <span><i className="bi bi-list"></i></span>
+      <button className="btn_menu_device" onClick={()=>setOpenMenu(!openMenu)}>
+        <span>
+          <RxHamburgerMenu />
+        </span>
       </button>
+      
+
     </section>
+    <Menu  isOpenMenu={openMenu} closeMenu={()=> setOpenMenu(false)}>
+
+      </Menu>
+    </>
   );
 }

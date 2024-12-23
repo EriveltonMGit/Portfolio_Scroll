@@ -150,20 +150,21 @@
 
   @media (max-width: 480px){
      /* footer.module.css */
-.section{
+.section_5{
   width: 100%;
-  height: 200vh;
+  height: 150vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
   position: relative;
   z-index:1;
+
 }
 /* Estilos principais do footer */
 .footer {
   
-  /* border-bottom: 1px solid #0056b3; */
+
   padding:1rem;
   font-family: Arial, sans-serif;
   color: #333;
@@ -176,6 +177,7 @@
   position: relative;
   text-align: center;
   overflow: hidden;
+  
 }
 
 .container {
@@ -236,17 +238,21 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  text-align: center;
   width: 100%;
   overflow: hidden;
+ 
 }
 
 .footerList li {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   overflow: hidden;
+  text-align: center;
+  
 }
 .footerList li:hover{
   background-color: #333;
@@ -263,6 +269,13 @@
     font-size: 5vw;
     transition: 0.5s;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    
+   
 }
 
 

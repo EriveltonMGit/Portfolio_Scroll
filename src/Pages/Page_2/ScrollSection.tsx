@@ -82,9 +82,9 @@ function ScrollSection() {
               {/* sobre */}
               <div className="sobre">
                 <h2 className="area-especial">
-                  Olá, eu sou Erivelton Magalhães
+                  SOBRE:
                 </h2>
-                <p>
+                <p >
                   Formado em Análise e Desenvolvimento de Sistemas, sou
                   desenvolvedor Front-end  com certificação em Desenvolvedor Full Stack e
                   Google Cloud Computing. Atualmente,
@@ -127,13 +127,14 @@ function ScrollSection() {
                   funcionalidade para criar produtos digitais que encantam e
                   performam. Sou movido pela busca constante por inovação e
                   excelência, entregando projetos que não apenas atendem às
-                  necessidades do cliente, mas também superam expectativas. Cada
+                  necessidades do cliente, mas também superam expectativas.
+                </p>
+                <p> Cada
                   detalhe é pensado com cuidado, desde o design inicial até a
                   implementação final, garantindo resultados sólidos, criativos
                   e eficientes. Seja um projeto pequeno ou uma solução robusta,
                   meu objetivo é sempre agregar valor, com experiências digitais
-                  que realmente fazem a diferença.
-                </p>
+                  que realmente fazem a diferença.</p>
               </div>
               {/* minicards */}
               <div className="area_cards ">
