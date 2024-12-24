@@ -26,7 +26,14 @@ export default function Page_1() {
       window.removeEventListener("scroll", handleScroll_2);
     };
   }, []);
-
+  // funçao para falar com o desenvolvedor
+  function contato() {
+    window.open(
+      "https://api.whatsapp.com/send?phone=5561981579569&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20seu%20trabalho!",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  }
   return (
     <>
       <section
@@ -50,21 +57,21 @@ export default function Page_1() {
 
               <div className="btn_div">
                 {/* <Button /> */}
-                <button className="button button-custom">
+                <button className="button button-custom" onClick={contato}>
                   Entre em contato
                 </button>
 
                 <span>
-                  <a href="">
+                  <a href="https://api.whatsapp.com/send?phone=5561981579569&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20seu%20trabalho!" target="_blank" rel="noopener noreferrer">
                     {" "}
                     
                     <i className="bi bi-whatsapp"><FaWhatsapp/></i>
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/erivelton-magalh%C3%A3es-553a6b215/">
                     
                     <i className="bi bi-linkedin"><CiLinkedin/></i>
                   </a>
-                  <a href="">
+                  <a href="https://github.com/EriveltonMGit/EriveltonMGit" className="socialIcon" target="_blank" rel="noopener noreferrer">
                     {" "}
                    
                     <i className="bi bi-github"><FaGithub/></i>

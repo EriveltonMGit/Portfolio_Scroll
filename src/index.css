@@ -87,7 +87,7 @@ li {
 
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(90deg,#b3e9e7,  #397c7b,  #b3e9e7);
-  border-radius: 6px;
+  border-radius: 3px;
   transition: 05s ease-in-out;
 }
 
