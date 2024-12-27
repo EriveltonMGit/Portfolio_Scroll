@@ -26,7 +26,7 @@
     text-align: center;
     overflow: hidden;
     transition: 0.5s all;
-
+    backdrop-filter: blur(10px);
    .icon_mini_cards{
   color: var( --blue);
   font-size:5vw;

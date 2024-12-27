@@ -6,7 +6,6 @@
 .body_project{
     width: 35%;
     height: 45vh;
-    border: 1px solid var(--gray);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,9 +13,12 @@
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-  
+    border: 1px solid  #b3e9e7;
+    transition: 0.7s all;
 }
-
+.body_project:hover{
+    scale: 1.1;
+}
 
 /* name */
 .name{
@@ -61,6 +63,7 @@ backdrop-filter: blur(100px);
     font-size: 0.8vw;
     overflow: hidden;
     padding: 0.4rem;
+
 }
 
 /* site_link */
@@ -120,7 +123,7 @@ background-color: var( --blue);
 .body_project{
     width: 100%;
     height: 55vh;
-    border: 1px solid var(--gray);
+    border: 1px solid  #b3e9e7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -229,7 +232,7 @@ background-color: var( --blue);
 .body_project{
     width: 100%;
     height: 45vh;
-    border: 1px solid var(--gray);
+    border: 1px solid  #b3e9e7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -340,7 +343,7 @@ background-color: var( --blue);
     .body_project{
         width: 100%;
         height: 55vh;
-        border: 1px solid var(--gray);
+        border: 1px solid  #b3e9e7;
         display: flex;
         align-items: center;
         justify-content: center;

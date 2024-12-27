@@ -36,7 +36,7 @@
 
   h2 {
     font-family: "Proelium";
-    color: var(--light);
+    color: #b3e9e7;
     font-size: 3.5vw;
     width: 100%;
   }
@@ -61,7 +61,7 @@
   position: relative;
   overflow: hidden;
   margin-right: -30vw;
-  
+
   img {
     width: 27vw;
     object-fit: cover;
@@ -96,10 +96,10 @@
   overflow: hidden;
   padding: 1rem;
   z-index: 1;
-
+  margin-left: -30%;
   h3 {
     font-family: "Proelium";
-    color: white;
+    color: #b3e9e7;
     width: 100%;
     font-size: 3vw;
     overflow: hidden;
@@ -121,6 +121,7 @@
   justify-content: space-around;
   overflow: hidden;
   z-index: 200;
+  margin-right: -80vw;
 
 }
 
@@ -129,7 +130,9 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
   .content_mini-cards {
+
     width: 45%;
     height: 90%;
     margin-top: 10vh;
@@ -138,10 +141,11 @@
     justify-content: space-around;
     flex-direction: column;
     padding: 1rem;
+    
 
     h3 {
       font-family: "Proelium";
-      color: white;
+      color: #b3e9e7;
       width: 100%;
       font-size: 3vw;
       overflow: hidden;
@@ -152,6 +156,9 @@
       font-family: "Gotham";
       font-size: 1.2vw;
       overflow: hidden;
+      border: 1px solid var(--light);
+      border-radius: 5px;
+      padding: 10px;
     }
   }
 }
@@ -168,17 +175,16 @@
   overflow-y: hidden;
   margin-top: 10vh;
 }
-.icon_cursor{
+.icon_cursor {
   color: #b3e9e7;
   position: absolute;
   bottom: 0;
-font-size: 2vw;
-margin-left: 10%;
-margin-bottom: 2%;
-
+  font-size: 2vw;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
 /* =================== MIDIA SCREEN ============================ */
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .scroll-section-outer {
     overflow: hidden;
   }
@@ -287,7 +293,7 @@ margin-bottom: 2%;
     width: 100%;
     height: 55%;
     margin-top: 8vh;
-
+    margin-left: 0%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -309,12 +315,10 @@ margin-bottom: 2%;
       font-size: 4vw;
       overflow: hidden;
     }
-    p:nth-child(2){
+    p:nth-child(2) {
       display: none;
     }
   }
-
- 
 
   /* area_cards */
   .area_cards {
@@ -325,6 +329,8 @@ margin-bottom: 2%;
     justify-content: flex-start;
     overflow: hidden;
     z-index: 200;
+    overflow-y: hidden;
+    margin-right: -480vw;
   }
 
   /* secttion_3-cards */
@@ -344,7 +350,7 @@ margin-bottom: 2%;
       flex-direction: column;
       padding: 1rem;
       overflow: hidden;
-     
+
       h3 {
         font-family: "Proelium";
         color: white;
@@ -372,16 +378,14 @@ margin-bottom: 2%;
     justify-content: center;
     overflow: hidden;
     overflow-y: hidden;
-
   }
-  .icon_cursor{
+  .icon_cursor {
     color: #b3e9e7;
     position: absolute;
     bottom: 0;
-  font-size: 2vw;
-  margin-left: 10%;
-  margin-bottom: 2%;
-  
+    font-size: 2vw;
+    margin-left: 10%;
+    margin-bottom: 2%;
   }
 }
 @media (max-width: 480px) {
@@ -423,7 +427,7 @@ margin-bottom: 2%;
 
     h2 {
       font-family: "Proelium";
-      color: var(--light);
+      color: #b3e9e7;
       font-size: 6vw;
       width: 100%;
       position: absolute;
@@ -492,6 +496,7 @@ margin-bottom: 2%;
   .text_mini_cards {
     width: 100%;
     height: 55%;
+    margin-left: 0%;
     margin-top: 8vh;
     overflow-y: hidden;
     display: flex;
@@ -504,7 +509,7 @@ margin-bottom: 2%;
 
     h3 {
       font-family: "Proelium";
-      color: white;
+      color: #b3e9e7;
       width: 100%;
       font-size: 6vw;
       overflow: hidden;
@@ -515,11 +520,11 @@ margin-bottom: 2%;
       font-size: 3.5vw;
       overflow: hidden;
     }
-    p:nth-child(2){
+    p:nth-child(2) {
       display: block;
     }
   }
- 
+
   /* area_cards */
   .area_cards {
     width: 100%;
@@ -530,7 +535,7 @@ margin-bottom: 2%;
     overflow: hidden;
     z-index: 200;
     overflow-y: hidden;
-  
+    margin-right: -480vw;
   }
 
   /* secttion_3-cards */
@@ -550,10 +555,10 @@ margin-bottom: 2%;
       flex-direction: column;
       padding: 1rem;
       overflow: hidden;
-     
+
       h3 {
         font-family: "Proelium";
-        color: white;
+        color: #b3e9e7;
         width: 100%;
         font-size: 6vw;
         overflow: hidden;
@@ -578,16 +583,14 @@ margin-bottom: 2%;
     justify-content: center;
     overflow: hidden;
     overflow-y: hidden;
-    
   }
-  .icon_cursor{
+  .icon_cursor {
     color: #b3e9e7;
     position: absolute;
     bottom: 0;
-  font-size: 5vw;
-  margin-left: 10%;
-  margin-bottom: 2%;
-  
+    font-size: 5vw;
+    margin-left: 10%;
+    margin-bottom: 2%;
   }
 }
 @media (max-width: 320px) {
@@ -629,7 +632,7 @@ margin-bottom: 2%;
 
     h2 {
       font-family: "Proelium";
-      color: var(--light);
+      color: #b3e9e7;
       font-size: 5vw;
       width: 100%;
       position: absolute;
@@ -701,7 +704,7 @@ margin-bottom: 2%;
     width: 100%;
     height: 60%;
     margin-top: 8vh;
-
+    margin-left: 0%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -712,11 +715,10 @@ margin-bottom: 2%;
 
     h3 {
       font-family: "Proelium";
-      color: white;
+      color: #b3e9e7;
       width: 100%;
       font-size: 5vw;
       overflow: hidden;
-      
     }
     p {
       color: white;
@@ -725,11 +727,11 @@ margin-bottom: 2%;
       overflow: hidden;
       letter-spacing: 2px;
     }
-    p:nth-child(2){
-    display: none;
+    p:nth-child(2) {
+      display: none;
     }
   }
- 
+
   /* area_cards */
   .area_cards {
     width: 100%;
@@ -739,6 +741,8 @@ margin-bottom: 2%;
     justify-content: flex-start;
     overflow: hidden;
     z-index: 200;
+    overflow-y: hidden;
+    margin-right: -480vw;
   }
 
   /* secttion_3-cards */
@@ -758,10 +762,10 @@ margin-bottom: 2%;
       flex-direction: column;
       padding: 1rem;
       overflow: hidden;
-     
+
       h3 {
         font-family: "Proelium";
-        color: white;
+        color: #b3e9e7;
         width: 100%;
         font-size: 5vw;
         overflow: hidden;
@@ -773,7 +777,6 @@ margin-bottom: 2%;
         font-family: "Gotham";
         font-size: 3.4vw;
         overflow: hidden;
-        
       }
     }
   }
@@ -787,15 +790,13 @@ margin-bottom: 2%;
     justify-content: center;
     overflow: hidden;
     overflow-y: hidden;
-   
   }
-  .icon_cursor{
+  .icon_cursor {
     color: #b3e9e7;
     position: absolute;
     bottom: 0;
-  font-size: 5vw;
-  margin-left: 10%;
-  margin-bottom: 2%;
-  
+    font-size: 5vw;
+    margin-left: 10%;
+    margin-bottom: 2%;
   }
 }

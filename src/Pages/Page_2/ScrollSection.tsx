@@ -136,14 +136,14 @@ function ScrollSection() {
                   que realmente fazem a diferença.</p>
               </div>
               {/* minicards */}
-              <div className="area_cards ">
+              <div className="area_cards text_2">
                 <MiniCards />
               </div>
             </div>
             <div className="scroll-section secttion_3-cards">
               <div className="content_mini-cards">
                 <h3 className="area-especial">
-                Com + de 1 ano de experiência como Desenvolvedor Frontend!
+                Com 1 ano de experiência como Desenvolvedor Frontend!
                 </h3>
                 <p>
                   Ofereço uma ampla gama de serviços de alta qualidade,
@@ -156,9 +156,9 @@ function ScrollSection() {
               
               </div>
               {/*minicards  */}
-              <div className="area_circle">
+              <div className="area_circle " >
                 <ThreeDTorus/>
-                <HiCursorClick className="icon_cursor"/>
+                <HiCursorClick className="icon_cursor "/>
               </div>
             </div>
           </div>

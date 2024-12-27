@@ -76,7 +76,7 @@
     justify-content: flex-start;
     font-family: "Proelium";
     font-size: 3.5vw;
-    color: var(--white);
+    color: #b3e9e7;
     margin-top: 5vh;
     letter-spacing: 1px;
     overflow: hidden;
@@ -103,7 +103,7 @@
     justify-content: space-around;
     flex-direction: column;
     border-radius: 5px;
-    color: #00dfc0;
+    color: #b3e9e7;
     overflow: hidden;
 text-align: center;
     .icon {
@@ -160,7 +160,7 @@ text-align: center;
       justify-content: flex-start;
       font-family: "Proelium";
       font-size: 1.3vw;
-      color: var(--white);
+      color: #b3e9e7;
       margin-top: 5vh;
       letter-spacing: 1px;
       overflow: hidden;

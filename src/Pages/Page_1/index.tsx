@@ -18,6 +18,7 @@ export default function Page_1() {
       if (text_2) {
         gsap.to(text_2, { x: -scrollPosition * 0.5, duration: 0.5 });
       }
+     
     };
 
     window.addEventListener("scroll", handleScroll_2);
@@ -48,7 +49,7 @@ export default function Page_1() {
             <GradualSpacing text="BEM-VINDO AO MEU PORTFÓLIO" />
           </h1>
           <div className="mini_cards ">
-            <div className="card_ ">
+            <div className="card_  ">
               <h3>
                 EU SOU ERIVELTON MAGALHÃES, DESENVOLVEDOR FRONT END E ESTOU AQUI
                 PARA AJUDAR VOCÊ A CONSTRUIR SEU SITE.

@@ -26,7 +26,8 @@
     overflow: hidden;
     top: 0;
     font-family: "Proelium";
-    color: var(--white);
+    color: #b3e9e7;
+   
     font-size:3.5vw;
     display: flex;
     align-items: center;
@@ -83,7 +84,7 @@
     overflow: hidden;
     top: 0;
     font-family: "Proelium";
-    color: var(--white);
+    color: #b3e9e7;
     font-size: 5.7vw;
     display: flex;
     align-items: center;

@@ -7,7 +7,7 @@ import "./Page_3.css";
 
 export default function Page_3  () {
   return (
-    <section className="section_3" id="projetos" >
+    <section className="section_3" id="projetos " >
    
     
   <main className="title_projetos">
