@@ -39,7 +39,7 @@ export default function Page_1() {
       <section
         className="section_1"
         id="inicio"
-        
+        data-aos="zoom-out"
       >
   
         {/* CARD 1 */}

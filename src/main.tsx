@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
-import Smoke_mause from './assets/components/Cursor_smoke/canvas.tsx' //animacao smoke cursor
+
 
 // IMPORTAR AOS
 import AOS from "aos";
@@ -20,11 +20,8 @@ AOS.init({
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BolinhaSeguindoMouse />
-    <Smoke_mause/>
+    <BolinhaSeguindoMouse /> 
     <Scroll />
-
     <App />
-
   </StrictMode>
 );

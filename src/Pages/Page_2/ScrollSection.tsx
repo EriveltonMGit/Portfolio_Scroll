@@ -92,14 +92,15 @@ function ScrollSection() {
                   Computação. Minha paixão por tecnologia e design me capacita a
                   criar soluções eficientes, inovadoras e visualmente atraentes,
                   com foco em performance e usabilidade.
-                  <p className="p-device">
+                  
+                </p>
+                <p className="p-device">
                     {" "}
                     Tenho experiência prática com ferramentas como Angular e
                     React, e estou sempre explorando novas tecnologias e
                     tendências para otimizar meus projetos, proporcionando uma
                     experiência de usuário envolvente e intuitiva.
                   </p>
-                </p>
               </div>
               {/* foto_perfil */}
               <div className="foto_perfil animation">
