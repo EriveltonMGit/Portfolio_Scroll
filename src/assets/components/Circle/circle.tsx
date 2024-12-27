@@ -83,7 +83,7 @@ const ThreeDTorus: React.FC = () => {
     };
   }, []);
 
-  return <div ref={containerRef} style={{ width: '100%', height: '100%' }} />;
+  return <div ref={containerRef} style={{ width: '100%', height: '100%', overflow:" hidden" }} />;
 };
 
 export default ThreeDTorus;

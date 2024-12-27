@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import "./ScrollHorizontal.css";
 import MiniCards from "../../assets/components/MiniCards/MiniCards";
 import ThreeDTorus from "../../assets/components/Circle/circle";
-
+import { HiCursorClick } from "react-icons/hi";
 function ScrollSection() {
   // ANIMAÇAO PARA OS EFEITO DE ROLAGEM DOS OBJETOS
   gsap.registerPlugin(ScrollTrigger);
@@ -157,6 +157,7 @@ function ScrollSection() {
               {/*minicards  */}
               <div className="area_circle">
                 <ThreeDTorus/>
+                <HiCursorClick className="icon_cursor"/>
               </div>
             </div>
           </div>

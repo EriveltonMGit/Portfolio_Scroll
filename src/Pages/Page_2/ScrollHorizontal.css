@@ -168,7 +168,15 @@
   overflow-y: hidden;
   margin-top: 10vh;
 }
+.icon_cursor{
+  color: #b3e9e7;
+  position: absolute;
+  bottom: 0;
+font-size: 2vw;
+margin-left: 10%;
+margin-bottom: 2%;
 
+}
 /* =================== MIDIA SCREEN ============================ */
 @media (max-width: 768px){
   .scroll-section-outer {
@@ -366,6 +374,15 @@
     overflow-y: hidden;
 
   }
+  .icon_cursor{
+    color: #b3e9e7;
+    position: absolute;
+    bottom: 0;
+  font-size: 2vw;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  
+  }
 }
 @media (max-width: 480px) {
   .scroll-section-outer {
@@ -562,6 +579,15 @@
     overflow: hidden;
     overflow-y: hidden;
     
+  }
+  .icon_cursor{
+    color: #b3e9e7;
+    position: absolute;
+    bottom: 0;
+  font-size: 5vw;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  
   }
 }
 @media (max-width: 320px) {
@@ -762,5 +788,14 @@
     overflow: hidden;
     overflow-y: hidden;
    
+  }
+  .icon_cursor{
+    color: #b3e9e7;
+    position: absolute;
+    bottom: 0;
+  font-size: 5vw;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  
   }
 }

@@ -391,6 +391,7 @@ text-align: center;
     overflow: hidden;
     position: relative;
     margin-top: 10vh;
+    
   }
   .text_scroll {
     width: 100%;
@@ -429,7 +430,7 @@ text-align: center;
     overflow: hidden;
     flex-direction: column;
     overflow: hidden;
-    margin-top: 70vh;
+   
     .title_ {
       font-family: "Proelium";
       color: var(--white);
@@ -504,19 +505,20 @@ text-align: center;
 
   /* .page_4 .card_2  */
   .page_4 .card_2 {
-    width: 100%;
+    width: 98%;
     height: 55%;
     position: absolute;
     top: 0;
     right: 0;
     margin-top: 20vh;
-    margin-right: 2.5%;
+    margin-right: 1%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
     gap: 1vh;
     text-align: center;
+    
     div {
       border: 1px solid var(--gray);
       overflow: hidden;

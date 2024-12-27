@@ -27,9 +27,10 @@
     font-family: 'Gotham';
     font-size: 1.2vw;
     width: 100%;
-    background-color: var( --dark);
+backdrop-filter: blur(100px);
     padding: 0.2rem;
     padding-left: 1rem;
+    
 }
 .img_project{
     position: absolute;
