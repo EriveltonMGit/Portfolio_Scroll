@@ -14,7 +14,9 @@
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+  
 }
+
 
 /* name */
 .name{
@@ -31,11 +33,18 @@
 }
 .img_project{
     position: absolute;
-    width: 30vw;
+    width: 35vw;
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    transition: 0.5s all;
+}
+.body_project:hover .img_project{
+ scale: 1.1;
+
+
+
 }
 
 /* descricao */

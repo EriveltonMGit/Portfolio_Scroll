@@ -33,7 +33,6 @@
   overflow: hidden;
   position: relative;
   margin-top: 10vh;
- 
 }
 .text_scroll {
   width: 100%;
@@ -57,10 +56,6 @@
   padding: 1rem;
 }
 
-
-
-
-
 /* .page_4 .card_1  */
 .page_4 .card_1 {
   width: 45%;
@@ -73,11 +68,9 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
- 
 
-
- h1{
-  width: 100%;
+  h1 {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -86,70 +79,55 @@
     color: var(--white);
     margin-top: 5vh;
     letter-spacing: 1px;
-overflow: hidden;
+    overflow: hidden;
+  }
 
- }
-  
+  .container_skill {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    overflow: hidden;
+    
+  }
 
-.container_skill{
-  
-  width: 100%;
-  height: 85%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 4px;
-  overflow: hidden;
+  .skill-item {
+    border: 1px solid rgb(255, 255, 255);
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 5px;
+    color: #00dfc0;
+    overflow: hidden;
+text-align: center;
+    .icon {
+      color: #00dfc0;
+      font-size: 3vw;
+      overflow: hidden;
+
+      
+    }
+    p {
+      color: var(--cyan);
+      font-family: "Gotham";
+      font-size: 14px;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      overflow: hidden;
+    }
+    
+  }
 }
-
-.skill-item{
-  border: 1px solid rgb(255, 255, 255);
-  width: 20%;
-  height: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  border-radius: 5px;
-  color: #00dfc0;
-  overflow: hidden;
-
-.icon{
-  color: #00dfc0;
-  font-size: 3vw;
-  overflow: hidden;
-}
-p{
-  color: var(--cyan);
-  font-family: "Gotham";
-  font-size: 14px;
-  font-weight: bolder;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%; 
-  text-align: center;
-  overflow: hidden;
-}
-
-}
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
 
 /* .page_4 .card_2  */
 .page_4 .card_2 {
@@ -164,43 +142,40 @@ p{
   justify-content: space-around;
   overflow: hidden;
   gap: 1vh;
-  div{
+  div {
     border: 1px solid var(--gray);
     overflow: hidden;
     padding: 0.5rem;
     border-radius: 10px;
 
-    img{
+    img {
       width: 4vw;
       object-fit: cover;
-       }
-h3{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  font-family: "Proelium";
-  font-size: 1.3vw;
-  color: var(--white);
-  margin-top: 5vh;
-  letter-spacing: 1px;
-  overflow: hidden;
-}
-p{
-  color: var(--cyan);
-  font-family: "Gotham";
-  font-size: 1vw;
-  font-weight: bolder;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-    
+     
+    }
+    h3 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-family: "Proelium";
+      font-size: 1.3vw;
+      color: var(--white);
+      margin-top: 5vh;
+      letter-spacing: 1px;
+      overflow: hidden;
+    }
+    p {
+      color: var(--cyan);
+      font-family: "Gotham";
+      font-size: 1vw;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
   }
-
-  
-  
 }
 
 .page_4 .card_2 h1 {
@@ -216,14 +191,10 @@ p{
   color: var(--bk-color);
   font-family: SpaceGrotesk-VariableFont;
   font-size: 1.3vw;
+
 }
 
-
-
-
-
-
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .page_4 {
     width: 100%;
     height: 250vh;
@@ -234,7 +205,6 @@ p{
     overflow: hidden;
     position: relative;
     margin-top: 10vh;
-
   }
   .text_scroll {
     width: 100%;
@@ -258,11 +228,7 @@ p{
     justify-content: flex-start;
     padding: 1rem;
   }
-  
-  
-  
-  
-  
+
   /* .page_4 .card_1  */
   .page_4 .card_1 {
     width: 100%;
@@ -277,37 +243,33 @@ p{
     overflow: hidden;
     flex-direction: column;
     margin-top: 90vh;
-    .title_{
+    .title_ {
       font-family: "Proelium";
-    color: var(--white);
-    font-size: 5vw;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 1rem;
-    
+      color: var(--white);
+      font-size: 5vw;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem;
     }
   }
-  
-  
-  
-  .container_skill{
+
+  .container_skill {
     /* border: 1px solid red; */
     width: 95%;
     height: 70%;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 4px;
     overflow: hidden;
     text-align: center;
     padding: 0;
-   margin-left: -2vw;
-
+    margin-left: -2vw;
   }
-  
-  .skill-item{
+
+  .skill-item {
     border: 1px solid rgb(255, 255, 255);
     width: 23%;
     height: 30%;
@@ -319,55 +281,40 @@ p{
     color: #00dfc0;
     overflow: hidden;
     text-align: center;
-   div{
-    
-    width: 100%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    div {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-    .icon{
-      color: #00dfc0;
-    font-size: 5vw;
-      overflow: hidden;
-      width: 12vw;
+      .icon {
+        color: #00dfc0;
+        font-size: 5vw;
+        overflow: hidden;
+        width: 12vw;
+      }
     }
-    
-    
-   }
-   .p_nome{
-    color: var(--cyan);
-    font-family: "Gotham";
-  font-size: 2vw;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%; 
-    text-align: center;
-    overflow: hidden;
-   
+    .p_nome {
+      color: var(--cyan);
+      font-family: "Gotham";
+      font-size: 2vw;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      overflow: hidden;
+    }
   }
- 
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   /* .page_4 .card_2  */
   .page_4 .card_2 {
     width: 100%;
     height: 55%;
     position: absolute;
-   top:  0;
+    top: 0;
     right: 0;
     margin-top: 20vh;
     margin-right: 2.5%;
@@ -377,7 +324,7 @@ p{
     overflow: hidden;
     gap: 1vh;
     text-align: center;
-    div{
+    div {
       border: 1px solid var(--gray);
       overflow: hidden;
       padding: 0.5rem;
@@ -389,39 +336,35 @@ p{
       text-align: center;
       width: 100%;
       height: 32%;
-      img{
+      img {
         width: 10vw;
         object-fit: cover;
-         }
-  h3{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Proelium";
-    font-size:5vw;
-    color: var(--white);
-    margin-top: 5vh;
-    letter-spacing: 1px;
-    overflow: hidden;
-  }
-  p{
-    color: var(--cyan);
-    font-family: "Gotham";
-    font-size: 3.3vw;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-      
+      }
+      h3 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Proelium";
+        font-size: 5vw;
+        color: var(--white);
+        margin-top: 5vh;
+        letter-spacing: 1px;
+        overflow: hidden;
+      }
+      p {
+        color: var(--cyan);
+        font-family: "Gotham";
+        font-size: 3.3vw;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
     }
-  
-    
-    
   }
-  
+
   .page_4 .card_2 h1 {
     color: var(--bk-color);
     font-family: Proelium;
@@ -430,14 +373,14 @@ p{
     align-items: center;
     justify-content: center;
   }
-  
+
   .page_4 .card_2 p {
     color: var(--bk-color);
     font-family: SpaceGrotesk-VariableFont;
     font-size: 1.3vw;
   }
 }
-@media (max-width:480px){
+@media (max-width: 480px) {
   .page_4 {
     width: 100%;
     height: 200vh;
@@ -448,7 +391,6 @@ p{
     overflow: hidden;
     position: relative;
     margin-top: 10vh;
-   
   }
   .text_scroll {
     width: 100%;
@@ -472,11 +414,7 @@ p{
     justify-content: flex-start;
     padding: 1rem;
   }
-  
-  
-  
-  
-  
+
   /* .page_4 .card_1  */
   .page_4 .card_1 {
     width: 100%;
@@ -492,37 +430,34 @@ p{
     flex-direction: column;
     overflow: hidden;
     margin-top: 70vh;
-    .title_{
+    .title_ {
       font-family: "Proelium";
-    color: var(--white);
-    font-size: 5vw;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 1rem;
-    overflow: hidden;
+      color: var(--white);
+      font-size: 5vw;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem;
+      overflow: hidden;
     }
   }
-  
-  
-  
-  .container_skill{
+
+  .container_skill {
     /* border: 1px solid red; */
     width: 95%;
     height: 65%;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 4px;
     overflow: hidden;
     text-align: center;
     padding: 0;
-   margin-left: -4vw;
-
+    margin-left: -4vw;
   }
-  
-  .skill-item{
+
+  .skill-item {
     border: 1px solid rgb(255, 255, 255);
     width: 23%;
     height: 20%;
@@ -536,58 +471,43 @@ p{
     overflow-y: hidden;
     text-align: center;
 
-   div{
-    
-    width: 100%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    overflow-y: hidden;
-    .icon{
-      color: #00dfc0;
-    font-size: 9vw;
-    overflow: hidden;
-    overflow-y: hidden;
-      width: 12vw;
+    div {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      overflow-y: hidden;
+      .icon {
+        color: #00dfc0;
+        font-size: 9vw;
+        overflow: hidden;
+        overflow-y: hidden;
+        width: 12vw;
+      }
     }
-    
-    
-   }
-   .p_nome{
-    color: var(--cyan);
-    font-family: "Gotham";
-  font-size: 2.5vw;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%; 
-    text-align: center;
-    overflow: hidden;
-    overflow-y: hidden;
-   
+    .p_nome {
+      color: var(--cyan);
+      font-family: "Gotham";
+      font-size: 2.5vw;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      overflow: hidden;
+      overflow-y: hidden;
+    }
   }
- 
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   /* .page_4 .card_2  */
   .page_4 .card_2 {
     width: 100%;
     height: 55%;
     position: absolute;
-   top:  0;
+    top: 0;
     right: 0;
     margin-top: 20vh;
     margin-right: 2.5%;
@@ -597,7 +517,7 @@ p{
     overflow: hidden;
     gap: 1vh;
     text-align: center;
-    div{
+    div {
       border: 1px solid var(--gray);
       overflow: hidden;
       padding: 0.5rem;
@@ -609,39 +529,35 @@ p{
       text-align: center;
       width: 100%;
       height: 32%;
-      img{
+      img {
         width: 10vw;
         object-fit: cover;
-         }
-  h3{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Proelium";
-    font-size:5vw;
-    color: var(--white);
-    margin-top: 5vh;
-    letter-spacing: 1px;
-    overflow: hidden;
-  }
-  p{
-    color: var(--cyan);
-    font-family: "Gotham";
-    font-size: 3.3vw;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-      
+      }
+      h3 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Proelium";
+        font-size: 5vw;
+        color: var(--white);
+        margin-top: 5vh;
+        letter-spacing: 1px;
+        overflow: hidden;
+      }
+      p {
+        color: var(--cyan);
+        font-family: "Gotham";
+        font-size: 3.3vw;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
     }
-  
-    
-    
   }
-  
+
   .page_4 .card_2 h1 {
     color: var(--bk-color);
     font-family: Proelium;
@@ -650,14 +566,14 @@ p{
     align-items: center;
     justify-content: center;
   }
-  
+
   .page_4 .card_2 p {
     color: var(--bk-color);
     font-family: SpaceGrotesk-VariableFont;
     font-size: 1.3vw;
   }
 }
-@media (max-width:320px){
+@media (max-width: 320px) {
   .page_4 {
     width: 100%;
     height: 220vh;
@@ -668,7 +584,6 @@ p{
     overflow: hidden;
     position: relative;
     margin-top: 10vh;
-   
   }
   .text_scroll {
     width: 100%;
@@ -692,11 +607,7 @@ p{
     justify-content: flex-start;
     padding: 1rem;
   }
-  
-  
-  
-  
-  
+
   /* .page_4 .card_1  */
   .page_4 .card_1 {
     width: 100%;
@@ -712,39 +623,36 @@ p{
     overflow-y: hidden;
     flex-direction: column;
     margin-top: 70vh;
-    .title_{
+    .title_ {
       font-family: "Proelium";
-    color: var(--white);
-    font-size: 5vw;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 1rem;
-    overflow: hidden;
-    overflow-y: hidden;
+      color: var(--white);
+      font-size: 5vw;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem;
+      overflow: hidden;
+      overflow-y: hidden;
     }
   }
-  
-  
-  
-  .container_skill{
+
+  .container_skill {
     /* border: 1px solid red; */
     width: 95%;
     height: 65%;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 4px;
     overflow: hidden;
     overflow-y: hidden;
     text-align: center;
     padding: 0;
-   margin-left: -2vw;
-
+    margin-left: -2vw;
   }
-  
-  .skill-item{
+
+  .skill-item {
     border: 1px solid rgb(255, 255, 255);
     width: 23%;
     height: 20%;
@@ -757,58 +665,43 @@ p{
     overflow: hidden;
     overflow-y: hidden;
     text-align: center;
-   div{
-    
-    width: 100%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    overflow-y: hidden;
-    .icon{
-      color: #00dfc0;
-    font-size: 9vw;
-    overflow: hidden;
-    overflow-y: hidden;
-      width: 12vw;
+    div {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      overflow-y: hidden;
+      .icon {
+        color: #00dfc0;
+        font-size: 9vw;
+        overflow: hidden;
+        overflow-y: hidden;
+        width: 12vw;
+      }
     }
-    
-    
-   }
-   .p_nome{
-    color: var(--cyan);
-    font-family: "Gotham";
-  font-size: 2.5vw;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%; 
-    text-align: center;
-    overflow: hidden;
-    overflow-y: hidden;
-   
+    .p_nome {
+      color: var(--cyan);
+      font-family: "Gotham";
+      font-size: 2.5vw;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      overflow: hidden;
+      overflow-y: hidden;
+    }
   }
- 
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   /* .page_4 .card_2  */
   .page_4 .card_2 {
     width: 100%;
     height: 55%;
     position: absolute;
-   top:  0;
+    top: 0;
     right: 0;
     margin-top: 20vh;
     margin-right: 2.5%;
@@ -819,7 +712,7 @@ p{
     overflow-y: hidden;
     gap: 1vh;
     text-align: center;
-    div{
+    div {
       border: 1px solid var(--gray);
       overflow: hidden;
       overflow-y: hidden;
@@ -832,42 +725,38 @@ p{
       text-align: center;
       width: 100%;
       height: 32%;
-      img{
+      img {
         width: 10vw;
         object-fit: cover;
-         }
-  h3{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Proelium";
-    font-size:5vw;
-    color: var(--white);
-    margin-top: 5vh;
-    letter-spacing: 1px;
-    overflow: hidden;
-    overflow-y: hidden;
-  }
-  p{
-    color: var(--cyan);
-    font-family: "Gotham";
-    font-size: 3.3vw;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    overflow: hidden;
-    overflow-y: hidden;
-  }
-      
+      }
+      h3 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Proelium";
+        font-size: 5vw;
+        color: var(--white);
+        margin-top: 5vh;
+        letter-spacing: 1px;
+        overflow: hidden;
+        overflow-y: hidden;
+      }
+      p {
+        color: var(--cyan);
+        font-family: "Gotham";
+        font-size: 3.3vw;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+        overflow-y: hidden;
+      }
     }
-  
-    
-    
   }
-  
+
   .page_4 .card_2 h1 {
     color: var(--bk-color);
     font-family: Proelium;
@@ -878,7 +767,7 @@ p{
     overflow: hidden;
     overflow-y: hidden;
   }
-  
+
   .page_4 .card_2 p {
     color: var(--bk-color);
     font-family: SpaceGrotesk-VariableFont;

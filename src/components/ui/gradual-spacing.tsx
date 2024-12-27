@@ -4,11 +4,11 @@ import { AnimatePresence, motion, Variants } from "framer-motion";
 import { cn } from "./lib/utils";
 
 interface GradualSpacingProps {
-  text: string; // O texto é uma string fixa passada como prop
-  duration?: number; // Duração da animação
-  delayMultiple?: number; // Multiplicador para atrasos entre caracteres
-  framerProps?: Variants; // Configurações de animação do framer-motion
-  className?: string; // Classes CSS personalizadas
+  text: string;
+  duration?: number;
+  delayMultiple?: number;
+  framerProps?: Variants;
+  className?: string;
 }
 
 export default function GradualSpacing({
@@ -16,15 +16,14 @@ export default function GradualSpacing({
   duration = 0.5,
   delayMultiple = 0.04,
   framerProps = {
-    hidden: { opacity: 0, x: -20 }, // Animação inicial
-    visible: { opacity: 1, x: 0 },  // Animação ao aparecer
+    hidden: { opacity: 0, scale: 0.8, color: "#000000" },
+    visible: { opacity: 1, scale: 1, color: "#b3e9e7" },
   },
   className,
 }: GradualSpacingProps) {
   return (
     <div className="flex justify-center flex-wrap space-x-1 text-center sm:space-x-0">
       <AnimatePresence>
-        {/* Divide o texto em palavras e depois em caracteres */}
         {text.split(" ").map((word, wordIndex) => (
           <div key={wordIndex} className="flex">
             {word.split("").map((char, charIndex) => (
@@ -43,7 +42,6 @@ export default function GradualSpacing({
                 {char === " " ? <span>&nbsp;</span> : char}
               </motion.h1>
             ))}
-            {/* Adiciona espaço entre palavras */}
             <span>&nbsp;</span>
           </div>
         ))}

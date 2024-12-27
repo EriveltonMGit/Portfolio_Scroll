@@ -39,9 +39,9 @@ export default function Page_1() {
       <section
         className="section_1"
         id="inicio"
-        data-aos="zoom-out"
-        data-aos-duration="2000"
+        
       >
+  
         {/* CARD 1 */}
         <main className="card_1">
           <h1 className="title_ area-especial text_1 gradual-spacing">
@@ -50,7 +50,7 @@ export default function Page_1() {
           <div className="mini_cards ">
             <div className="card_ ">
               <h3>
-                EU SOU ERIVELTON MAGAHLÃES, DESENVOLVEDOR FRONT END E ESTOU AQUI
+                EU SOU ERIVELTON MAGALHÃES, DESENVOLVEDOR FRONT END E ESTOU AQUI
                 PARA AJUDAR VOCÊ A CONSTRUIR SEU SITE.
               </h3>
               <p>Transformo a sua ideia em um verdadeiro ímã de clientes!</p>

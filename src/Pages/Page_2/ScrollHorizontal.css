@@ -60,8 +60,8 @@
   justify-content: center;
   position: relative;
   overflow: hidden;
-
   margin-right: -30vw;
+  
   img {
     width: 27vw;
     object-fit: cover;
@@ -70,13 +70,14 @@
     position: absolute;
     overflow: hidden;
     bottom: 0;
+    margin-right: -1vw;
   }
 
   /* elipse */
   .elipse {
     position: absolute;
     z-index: 1;
-    width: 35vw;
+    width: 30vw;
     overflow: hidden;
     filter: blur(50px);
   }
@@ -443,7 +444,7 @@
 
     margin-right: -210vw;
     img {
-      width: 90vw;
+      width: 85vw;
       object-fit: cover;
       background-size: cover;
       z-index: 200;

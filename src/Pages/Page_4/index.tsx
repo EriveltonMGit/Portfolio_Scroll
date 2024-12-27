@@ -46,6 +46,7 @@ export default function Page_4() {
        <div className="container_skill">
        {itemsSkills.map((item) => (
           <div key={item.id} className="skill-item">
+            
             <div ><span>{item.img}</span></div>
             <span className="p_nome">{item.titulo}</span>
           </div>

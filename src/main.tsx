@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
 import Smoke_mause from './assets/components/Cursor_smoke/canvas.tsx' //animacao smoke cursor
+
 // IMPORTAR AOS
 import AOS from "aos";
 import "aos/dist/aos.css";  // Estilos do AOS

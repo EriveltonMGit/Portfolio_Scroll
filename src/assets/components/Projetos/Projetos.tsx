@@ -57,7 +57,7 @@ function Projetos() {
   return (
     <>
       {ittemsProjects.map((item) => (
-        <div key={item.id} className="body_project">
+        <div key={item.id} className="body_project button-custom">
           <p className="name">{item.name}</p>
           <img className="img_project" src={item.image} alt={item.name} />
           <span className="descricao">

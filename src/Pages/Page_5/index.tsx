@@ -10,7 +10,7 @@ export default function Page_5() {
       <footer id="contato" className="footer">
         <div className="container">
           {/* Sobre */}
-          <div className="footerColumn" data-aos="fade-right" data-aos-duration="3000">
+          <div className="footerColumn" >
             <h5 className="footerTitle">Sobre</h5>
             <p className="footerText">
               Ofereço serviços de alta qualidade com foco em atender as

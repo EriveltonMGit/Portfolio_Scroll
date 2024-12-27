@@ -78,7 +78,7 @@ function ScrollSection() {
         <div ref={triggerRef}>
           <div ref={sectionRef} className="scroll-section-inner">
             {/* SECTION 1 */}
-            <main className="scroll-section">
+            <main className="scroll-section" >
               {/* sobre */}
               <div className="sobre">
                 <h2 className="area-especial">
@@ -125,9 +125,7 @@ function ScrollSection() {
                   usuário. Além disso, dedico-me ao desenvolvimento de
                   aplicações web responsivas e escaláveis, alinhando estética e
                   funcionalidade para criar produtos digitais que encantam e
-                  performam. Sou movido pela busca constante por inovação e
-                  excelência, entregando projetos que não apenas atendem às
-                  necessidades do cliente, mas também superam expectativas.
+                  performam.
                 </p>
                 <p> Cada
                   detalhe é pensado com cuidado, desde o design inicial até a
@@ -144,7 +142,7 @@ function ScrollSection() {
             <div className="scroll-section secttion_3-cards">
               <div className="content_mini-cards">
                 <h3 className="area-especial">
-                  Há + de 1 ano gerando valor e trazendo resultados!
+                Com + de 1 ano de experiência como Desenvolvedor Frontend!
                 </h3>
                 <p>
                   Ofereço uma ampla gama de serviços de alta qualidade,

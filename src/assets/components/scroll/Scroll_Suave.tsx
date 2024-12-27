@@ -7,7 +7,7 @@ const Scroll = () => {
     // Verifica se `Lenis` está disponível globalmente
     if (typeof window !== "undefined" && window.Lenis) {
       const lenis = new window.Lenis({
-        duration: 1.0, // Duração da rolagem suave
+        duration: 1.4, // Duração da rolagem suave
         easing: (t: number) => t, // Easing
         wrapper: document.body, // Body como wrapper
         content: document.documentElement, // HTML como conteúdo
