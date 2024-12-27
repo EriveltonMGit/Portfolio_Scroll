@@ -143,7 +143,7 @@ function ScrollSection() {
             <div className="scroll-section secttion_3-cards">
               <div className="content_mini-cards">
                 <h3 className="area-especial">
-                Com 1 ano de experiência como Desenvolvedor Frontend!
+                 1 ano de experiência como Desenvolvedor Frontend!
                 </h3>
                 <p>
                   Ofereço uma ampla gama de serviços de alta qualidade,
