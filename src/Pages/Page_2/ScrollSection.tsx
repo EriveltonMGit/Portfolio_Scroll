@@ -90,7 +90,7 @@ function ScrollSection() {
                   Google Cloud Computing. Atualmente,
                   estou expandindo meus conhecimentos cursando Ciência da
                   Computação. Minha paixão por tecnologia e design me capacita a
-                  criar soluções eficientes, inovadoras e visualmente atraentes,
+                  criar soluções eficientes, inovadoras e atraentes,
                   com foco em performance e usabilidade.
                   
                 </p>
@@ -113,7 +113,7 @@ function ScrollSection() {
               </div>
             </main>
             {/* SECTION 2 */}
-            <div className="scroll-section device_text_impacto">
+            <div className="scroll-section device_text_impacto " >
               <div className="text_mini_cards ">
                 <h3 className="area-especial">
                   Inovação e Impacto no Mundo Digital
@@ -141,8 +141,8 @@ function ScrollSection() {
               </div>
             </div>
             <div className="scroll-section secttion_3-cards">
-              <div className="content_mini-cards">
-                <h3 className="area-especial">
+              <div className="content_mini-cards ">
+                <h3 className="area-especial ">
                  1 ano de experiência como Desenvolvedor Frontend!
                 </h3>
                 <p>

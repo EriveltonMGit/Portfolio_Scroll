@@ -11,6 +11,7 @@
   overflow: hidden;
 }
 
+
 .scroll-section {
   height: 100vh;
   width: 100vw;
@@ -122,7 +123,6 @@
   overflow: hidden;
   z-index: 200;
   margin-right: -80vw;
-
 }
 
 /* secttion_3-cards */
@@ -130,9 +130,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
-  .content_mini-cards {
 
+  .content_mini-cards {
     width: 45%;
     height: 90%;
     margin-top: 10vh;
@@ -141,7 +140,6 @@
     justify-content: space-around;
     flex-direction: column;
     padding: 1rem;
-    
 
     h3 {
       font-family: "Proelium";
@@ -184,7 +182,409 @@
   margin-bottom: 2%;
 }
 /* =================== MIDIA SCREEN ============================ */
-@media (max-width: 768px) {
+@media (min-height: 1080px) and (max-width: 1920px) and (orientation: landscape) {
+  .scroll-section-outer {
+    overflow: hidden;
+
+  }
+  
+  .scroll-section-inner {
+    height: 100vh;
+    width: 300vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
+  .scroll-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* SOBRE */
+  .sobre {
+    height: 90%;
+    width: 45%;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  
+    margin-left: 5vw;
+  
+    h2 {
+      font-family: "Proelium";
+      color: #b3e9e7;
+      font-size: 3.5vw;
+      width: 100%;
+    }
+  
+    p {
+      font-family: "Gotham";
+      width: 100%;
+      color: var(--light);
+      font-size: 1.5vw;
+      margin-bottom: 5vh;
+      
+    }
+  }
+  
+  /* foto_perfil */
+  .foto_perfil {
+    height: 90%;
+    width: 50%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-right: -30vw;
+  
+    img {
+      width: 29vw;
+      object-fit: cover;
+      background-size: cover;
+      z-index: 2;
+      position: absolute;
+      overflow: hidden;
+      bottom: 0;
+      margin-right: -10vw;
+    }
+  
+    /* elipse */
+    .elipse {
+      position: absolute;
+      z-index: 1;
+      width: 30vw;
+      overflow: hidden;
+      filter: blur(50px);
+    }
+  }
+  
+  /* AQUI FICA A SECTION 2 */
+  /* text_mini_cards */
+  .text_mini_cards {
+    width: 40%;
+    height: 95%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1rem;
+    z-index: 1;
+    margin-left: -20%;
+  
+    h3 {
+      font-family: "Proelium";
+      color: #b3e9e7;
+      width: 100%;
+      font-size: 3vw;
+      overflow: hidden;
+      overflow: hidden;
+    }
+    p {
+      color: white;
+      font-family: "Gotham";
+      font-size: 1.5vw;
+      overflow: hidden;
+    
+    }
+  }
+  /* area_cards */
+  .area_cards {
+    width: 52%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    z-index: 200;
+    margin-right: -80vw;
+  }
+  
+  /* secttion_3-cards */
+  .secttion_3-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    .content_mini-cards {
+      width: 45%;
+      height: 90%;
+      margin-top: 10vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      padding: 1rem;
+  
+      h3 {
+        font-family: "Proelium";
+        color: #b3e9e7;
+        width: 100%;
+        font-size: 3vw;
+        overflow: hidden;
+      }
+  
+      p {
+        color: white;
+        font-family: "Gotham";
+        font-size: 1.5vw;
+        overflow: hidden;
+        border: 1px solid var(--light);
+        border-radius: 5px;
+        padding: 10px;
+      }
+    }
+  }
+  
+  /* mini_cards_ferramentas */
+  .area_circle {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    overflow: hidden;
+    overflow-y: hidden;
+    margin-top: 10vh;
+  }
+  .icon_cursor {
+    color: #b3e9e7;
+    position: absolute;
+    bottom: 0;
+    font-size: 2vw;
+    margin-left: 10%;
+    margin-bottom: 2%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) and (orientation: portrait) {
+  .scroll-section-outer {
+    overflow: hidden;
+  }
+
+  .scroll-section-inner {
+    height: 100vh;
+    width: 300vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .scroll-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+
+  }
+
+  /* SOBRE */
+  .sobre {
+    height: 85%;
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    margin-left: 5vw;
+
+    h2 {
+      font-family: "Proelium";
+      color: var(--light);
+      font-size: 6vw;
+      width: 100%;
+      position: absolute;
+      top: 0;
+    }
+
+    p {
+      font-family: "Gotham";
+      width: 100%;
+      color: var(--light);
+      font-size: 4vw;
+      margin-bottom: 5vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: 8vh;
+    }
+    .p-device {
+      display: none;
+    }
+  }
+
+  /* foto_perfil */
+  .foto_perfil {
+    height: 90%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin-top: -20vh;
+    overflow: hidden;
+
+    margin-right: -250vw;
+    img {
+      width: 70vw;
+      object-fit: cover;
+      background-size: cover;
+      z-index: 200;
+      position: absolute;
+      overflow: hidden;
+      bottom: 0;
+    }
+
+    /* elipse */
+    .elipse {
+      position: absolute;
+      z-index: 1;
+      width: 60vw;
+      overflow: hidden;
+      filter: blur(50px);
+    }
+  }
+
+  /* AQUI FICA A SECTION 2 */
+  /* text_mini_cards */
+  .device_text_impacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 95%;
+    
+  }
+  .text_mini_cards {
+    width: 100%;
+    height: 55%;
+    margin-top: 8vh;
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1rem;
+    z-index: 1;
+    backdrop-filter: blur(40px);
+    h3 {
+      font-family: "Proelium";
+      color: white;
+      width: 100%;
+      font-size: 6vw;
+      overflow: hidden;
+    }
+    p {
+      color: white;
+      font-family: "Gotham";
+      font-size: 4vw;
+      overflow: hidden;
+   
+    }
+    p:nth-child(2) {
+      display: none;
+    }
+  }
+
+  /* area_cards */
+  .area_cards {
+    width: 95%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    z-index: 200;
+    overflow-y: hidden;
+    margin-right: -305vw;
+    
+  }
+
+  /* secttion_3-cards */
+  .secttion_3-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+ 
+    .content_mini-cards {
+      width: 100%;
+      height: 60%;
+      flex-wrap: wrap;
+      gap: 1vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      padding: 1rem;
+      overflow: hidden;
+     
+      position: relative;
+      h3 {
+        font-family: "Proelium";
+        color: white;
+        width: 100%;
+        font-size: 6vw;
+        overflow: hidden;
+        margin-top: 1vh;
+        
+      }
+
+      p {
+        color: white;
+        font-family: "Gotham";
+        font-size: 3.4vw;
+        overflow: hidden;
+
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+
+  /* .area_circle */
+  .area_circle {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    overflow-y: hidden;
+  }
+  .icon_cursor {
+    color: #b3e9e7;
+    position: absolute;
+    bottom: 0;
+    font-size: 2vw;
+    margin-left: 10%;
+    margin-bottom: 2%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
   .scroll-section-outer {
     overflow: hidden;
   }
@@ -218,7 +618,6 @@
     flex-direction: column;
     position: relative;
     overflow: hidden;
-
     margin-left: 5vw;
 
     h2 {
@@ -239,7 +638,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      margin-top: 5vh;
+      margin-top: 8vh;
     }
     .p-device {
       display: none;
@@ -259,7 +658,7 @@
     margin-top: -20vh;
     overflow: hidden;
 
-    margin-right: -230vw;
+    margin-right: -260vw;
     img {
       width: 70vw;
       object-fit: cover;
@@ -330,7 +729,7 @@
     overflow: hidden;
     z-index: 200;
     overflow-y: hidden;
-    margin-right: -480vw;
+    margin-right: -280vw;
   }
 
   /* secttion_3-cards */
@@ -339,9 +738,10 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+
     .content_mini-cards {
       width: 100%;
-      height: 50%;
+      height: 60%;
       flex-wrap: wrap;
       gap: 1vw;
       display: flex;
@@ -351,6 +751,7 @@
       padding: 1rem;
       overflow: hidden;
 
+      position: relative;
       h3 {
         font-family: "Proelium";
         color: white;
@@ -365,6 +766,9 @@
         font-family: "Gotham";
         font-size: 3.4vw;
         overflow: hidden;
+
+        position: absolute;
+        bottom: 0;
       }
     }
   }
@@ -372,7 +776,7 @@
   /* .area_circle */
   .area_circle {
     width: 100%;
-    height: 50%;
+    height: 40%;
     display: flex;
     align-items: center;
     justify-content: center;

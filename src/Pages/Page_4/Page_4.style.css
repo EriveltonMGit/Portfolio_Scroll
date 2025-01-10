@@ -193,8 +193,183 @@ text-align: center;
   font-size: 1.3vw;
 
 }
+/* ========================MEDIA SCREEN ======================= */
+@media (min-height: 1080px) and (max-width: 1920px) and (orientation: landscape){
 
-@media (max-width: 768px) {
+  .page_4 {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10vh;
+  }
+  .text_scroll {
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    font-family: "Proelium";
+    color: var(--white);
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  
+  /* .page_4 .card_1  */
+  .page_4 .card_1 {
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  
+    h1 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-family: "Proelium";
+      font-size: 3.5vw;
+      color: #b3e9e7;
+      margin-top: 5vh;
+      letter-spacing: 1px;
+      overflow: hidden;
+      
+    }
+  
+    .container_skill {
+      width: 100%;
+      height: 85%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 4px;
+      overflow: hidden;
+      
+    }
+  
+    .skill-item {
+      border: 1px solid rgb(255, 255, 255);
+      width: 20%;
+      height: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      border-radius: 5px;
+      color: #b3e9e7;
+      overflow: hidden;
+  text-align: center;
+      .icon {
+        color: #00dfc0;
+        font-size: 5vw;
+        overflow: hidden;
+  
+        
+      }
+      p {
+        color: var(--cyan);
+        font-family: "Gotham";
+        font-size: 22px;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+      }
+      
+    }
+  }
+  
+  /* .page_4 .card_2  */
+  .page_4 .card_2 {
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    gap: 1vh;
+    div {
+      border: 1px solid var(--gray);
+      overflow: hidden;
+      padding: 0.5rem;
+      border-radius: 10px;
+  
+      img {
+        width: 4vw;
+        object-fit: cover;
+       
+      }
+      h3 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: "Proelium";
+        font-size: 1.3vw;
+        color: #b3e9e7;
+        margin-top: 5vh;
+        letter-spacing: 1px;
+        overflow: hidden;
+        
+      }
+      p {
+        color: var(--cyan);
+        font-family: "Gotham";
+        font-size: 1vw;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+    }
+  }
+  
+  .page_4 .card_2 h1 {
+    color: var(--bk-color);
+    font-family: Proelium;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .page_4 .card_2 p {
+    color: var(--bk-color);
+    font-family: SpaceGrotesk-VariableFont;
+    font-size: 1.3vw;
+  
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) and (orientation: portrait){
   .page_4 {
     width: 100%;
     height: 250vh;
@@ -205,6 +380,9 @@ text-align: center;
     overflow: hidden;
     position: relative;
     margin-top: 10vh;
+
+
+   
   }
   .text_scroll {
     width: 100%;
@@ -242,15 +420,20 @@ text-align: center;
     justify-content: center;
     overflow: hidden;
     flex-direction: column;
-    margin-top: 90vh;
+    margin-top: 93vh;
+
     .title_ {
       font-family: "Proelium";
-      color: var(--white);
+      color: #b3e9e7;
       font-size: 5vw;
       display: flex;
       align-items: center;
       justify-content: flex-start;
       padding: 1rem;
+      margin-top: 10vh;
+     width: 90%;
+     margin-right: 5%;
+
     }
   }
 
@@ -267,6 +450,7 @@ text-align: center;
     text-align: center;
     padding: 0;
     margin-left: -2vw;
+    margin-top: 10vh;
   }
 
   .skill-item {
@@ -311,19 +495,216 @@ text-align: center;
 
   /* .page_4 .card_2  */
   .page_4 .card_2 {
-    width: 100%;
+    width:90%;
     height: 55%;
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 20vh;
-    margin-right: 2.5%;
+    margin-top: 23vh;
+    margin-right: 5%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
     gap: 1vh;
     text-align: center;
+    
+    div {
+      border: 1px solid var(--gray);
+      overflow: hidden;
+      padding: 0.5rem;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      height: 32%;
+      img {
+        width: 10vw;
+        object-fit: cover;
+      }
+      h3 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Proelium";
+        font-size: 5vw;
+        color: var(--white);
+        margin-top: 5vh;
+        letter-spacing: 1px;
+        overflow: hidden;
+      }
+      p {
+        color: var(--cyan);
+        font-family: "Gotham";
+        font-size: 3.3vw;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+    }
+  }
+
+  .page_4 .card_2 h1 {
+    color: var(--bk-color);
+    font-family: Proelium;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page_4 .card_2 p {
+    color: var(--bk-color);
+    font-family: SpaceGrotesk-VariableFont;
+    font-size: 1.5vw;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+  .page_4 {
+    width: 100%;
+    height: 250vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10vh;
+
+
+   
+  }
+  .text_scroll {
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 0;
+    margin-top: -25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    font-family: "Proelium";
+    color: var(--white);
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+
+  /* .page_4 .card_1  */
+  .page_4 .card_1 {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    margin-top: 93vh;
+
+    .title_ {
+      font-family: "Proelium";
+      color: #b3e9e7;
+      font-size: 5vw;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem;
+      margin-top: 10vh;
+     width: 90%;
+     margin-right: 5%;
+
+    }
+  }
+
+  .container_skill {
+    /* border: 1px solid red; */
+    width: 95%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+    margin-left: -2vw;
+    margin-top: 10vh;
+  }
+
+  .skill-item {
+    border: 1px solid rgb(255, 255, 255);
+    width: 23%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    color: #00dfc0;
+    overflow: hidden;
+    text-align: center;
+    div {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .icon {
+        color: #00dfc0;
+        font-size: 5vw;
+        overflow: hidden;
+        width: 12vw;
+      }
+    }
+    .p_nome {
+      color: var(--cyan);
+      font-family: "Gotham";
+      font-size: 2vw;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      overflow: hidden;
+    }
+  }
+
+  /* .page_4 .card_2  */
+  .page_4 .card_2 {
+    width:90%;
+    height: 55%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 23vh;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    gap: 1vh;
+    text-align: center;
+    
     div {
       border: 1px solid var(--gray);
       overflow: hidden;
@@ -433,7 +814,7 @@ text-align: center;
    
     .title_ {
       font-family: "Proelium";
-      color: var(--white);
+      color: #b3e9e7;
       font-size: 5vw;
       display: flex;
       align-items: center;
@@ -627,7 +1008,7 @@ text-align: center;
     margin-top: 70vh;
     .title_ {
       font-family: "Proelium";
-      color: var(--white);
+      color: #b3e9e7;
       font-size: 5vw;
       display: flex;
       align-items: center;

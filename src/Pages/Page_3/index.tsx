@@ -1,28 +1,19 @@
 import Projetos from "../../assets/components/Projetos/Projetos";
 import "./Page_3.css";
-// IMPORT COMPONENTS 
+// IMPORT COMPONENTS
 
-
-
-
-export default function Page_3  () {
+export default function Page_3() {
   return (
-    <section className="section_3" id="projetos " >
+    <section className="section_3 fade-area" id="projetos">
    
-    
-  <main className="title_projetos">
-    <h1>PROJETOS</h1>
-  </main>
-  {/* Projetos */}
-  <main className="container_projetos">
-    <Projetos/>
 
-  </main>
-
-
-      
-     
-     
+      <main className="title_projetos">
+        <h1>PROJETOS</h1>
+      </main>
+      {/* Projetos */}
+      <main className="container_projetos">
+        <Projetos />
+      </main>
     </section>
   );
-};
+}

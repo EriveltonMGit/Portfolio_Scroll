@@ -42,7 +42,7 @@ export default function Page_4() {
     <section className="page_4" id="ferramentas">
       {/* CARD 1 */}
       <main className="card_1">
-        <h1 className="title_ ">Skills:</h1>
+        <h1 className="title_ ">Tecnologias e Ferramentas:</h1>
        <div className="container_skill">
        {itemsSkills.map((item) => (
           <div key={item.id} className="skill-item">

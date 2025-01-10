@@ -19,6 +19,8 @@ export default function App() {
       <Nav />
       <Page_1 />
       
+     
+      
       <Page_2 />
       <Page_3/>
       <Page_4 />

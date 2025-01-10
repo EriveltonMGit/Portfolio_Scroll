@@ -1,0 +1,19 @@
+.container_img_scroll {
+  position: fixed;
+  top: 10%;
+  right:0;
+  z-index: 1;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+mix-blend-mode: luminosity;
+}
+
+.scroll-image {
+  width:10vw;
+  height: auto;
+  margin-top: 15vh;
+  transform-origin: center center; /* Ponto de rotação no centro */
+}

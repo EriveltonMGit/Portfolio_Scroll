@@ -42,6 +42,15 @@ const [openMenu, setOpenMenu] = useState (false)
   function baixarCv() {
     location.href = "https://drive.google.com/uc?export=download&id=1Kfk9wYxkOFl_2vZbRjM5ZutiQysX4_VZ";
   }
+  // DUNÇÃO PARA VISITAR O SITE DO DESENVOLVEDOR 
+
+function site() {
+  const confirmation = confirm('Deseja visitar o site do desenvolvedor?');
+  if (confirmation) {
+    window.location.href = "https://web-desing-page.netlify.app/";
+  }
+}
+
 
   return (
   <>
@@ -64,7 +73,7 @@ const [openMenu, setOpenMenu] = useState (false)
           </a>
         </li>
         <li>
-          <a href="#eventos">
+          <a href="#site" onClick={site}>
             <FaStar /> SITE
           </a>
         </li>
