@@ -75,10 +75,12 @@ body {
 a {
   
   text-decoration: none;
+  overflow: hidden;
 }
 
 li {
   list-style-type: none;
+  overflow: hidden;
 }
 
 ::-webkit-scrollbar {

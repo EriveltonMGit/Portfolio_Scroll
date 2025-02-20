@@ -40,8 +40,9 @@ const [openMenu, setOpenMenu] = useState (false)
 
   // Função para baixar o CV
   function baixarCv() {
-    location.href = "https://drive.google.com/uc?export=download&id=1Kfk9wYxkOFl_2vZbRjM5ZutiQysX4_VZ";
+    location.href = "https://drive.google.com/uc?export=download&id=1VutK2pW6JNc4E6P5JHy9Z1a7G5sEGazJ";
   }
+  
   // DUNÇÃO PARA VISITAR O SITE DO DESENVOLVEDOR 
 
 function site() {
