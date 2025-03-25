@@ -97,7 +97,7 @@
   overflow: hidden;
   padding: 1rem;
   z-index: 1;
-  margin-left: -30%;
+  /* margin-left: -30%; */
   h3 {
     font-family: "Proelium";
     color: #b3e9e7;
@@ -122,7 +122,7 @@
   justify-content: space-around;
   overflow: hidden;
   z-index: 200;
-  margin-right: -80vw;
+  /* margin-right: -80vw; */
 }
 
 /* secttion_3-cards */
@@ -284,7 +284,7 @@
     overflow: hidden;
     padding: 1rem;
     z-index: 1;
-    margin-left: -20%;
+    /* margin-left: -20%; */
   
     h3 {
       font-family: "Proelium";

@@ -23,7 +23,7 @@ function MiniCards() {
       
       {
         items.map((item)=>(
-            <div className='item-body area-especial  ' key={item.id}  >
+            <div className='item-body  ' key={item.id}  >
                {item.image }
                <h3>{item.name}</h3>
                <p>{item.description}</p>

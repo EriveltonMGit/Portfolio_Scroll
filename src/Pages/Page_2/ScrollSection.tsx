@@ -115,7 +115,7 @@ function ScrollSection() {
             {/* SECTION 2 */}
             <div className="scroll-section device_text_impacto " >
               <div className="text_mini_cards ">
-                <h3 className="area-especial">
+                <h3 className="">
                   Inovação e Impacto no Mundo Digital
                 </h3>
                 <p>
@@ -136,7 +136,7 @@ function ScrollSection() {
                   que realmente fazem a diferença.</p>
               </div>
               {/* minicards */}
-              <div className="area_cards text_2">
+              <div className="area_cards">
                 <MiniCards />
               </div>
             </div>
